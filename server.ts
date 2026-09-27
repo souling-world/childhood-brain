@@ -36,7 +36,8 @@ Bun.serve({
         // links are path slugs (parents/parent-x); the questioner compares bare seed slugs
         const links = [...md.matchAll(/\[\[([^\]]+)\]\]/g)].map(m => m[1].split("/").pop()!);
         const body = md.split("\n# ")[1]?.split("\n## Links")[0]?.split("\n").slice(1).join("\n").trim() ?? "";
-        const base = (md.match(/^title: .*\((.+)\)$/m)?.[1]) ?? "unknown";
+        // base: frontmatter when the page carries it, else the city in the title parens
+        const base = md.match(/^base: (.+)$/m)?.[1].trim().replace(/^["'](.*)["']$/, "$1") ?? md.match(/^title: .*\((.+)\)$/m)?.[1] ?? "unknown";
         return { slug: f.replace(".md", ""), base, links, body };
       }) : [];
       return Response.json(rows);
