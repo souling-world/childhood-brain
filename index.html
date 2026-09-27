@@ -32,7 +32,7 @@
 <main id="app"></main>
 <script>
 const app = document.getElementById('app');
-let seeds, picks = [], stage = 0, name = '', repertoire = [], alive = [], allRows = [];
+let seeds, picks = [], stage = 0, name = '', home = '', repertoire = [], alive = [], allRows = [];
 // Akinator step: score each candidate option by how evenly it splits the childhoods still alive
 function bestSplit(options, key) {
   const pool = alive.length ? alive : repertoire;
@@ -75,8 +75,8 @@ function render() {
     return;
   }
   if (!name) {
-    app.innerHTML = `<div class="fade"><h1>Your first name.</h1><p class="q">It goes at the top of the page you can share.</p><input id="nm" autofocus placeholder="Name"><button class="cta" id="go">Find my childhood</button></div>`;
-    app.querySelector('#go').onclick = () => { name = app.querySelector('#nm').value.trim() || 'You'; result('United States'); };
+    app.innerHTML = `<div class="fade"><h1>Your first name, and where you grew up.</h1><p class="q">The city is your base. Everything else is the adapter.</p><input id="nm" autofocus placeholder="Name"><input id="hm" placeholder="City you grew up in"><button class="cta" id="go">Find my childhood</button></div>`;
+    app.querySelector('#go').onclick = () => { name = app.querySelector('#nm').value.trim() || 'You'; home = app.querySelector('#hm').value.trim() || 'United States'; result(home); };
     return;
   }
 }
@@ -98,7 +98,10 @@ function pickFragment(m, base) {
   const hits = hitsOf(m);
   const rowOf = h => allRows.find(r => r.slug === slugOf(h));
   const isChildhood = h => h?.type === 'childhood' || slugOf(h).startsWith('childhood-');
-  const inBase = h => { const r = rowOf(h); return r ? r.base === base : /Lima/.test(String(h?.title ?? '')) === (base === 'Lima, Peru'); };
+  // base is free text ("Lima" should still match a page titled "(Lima, Peru)"), so compare loosely
+  const norm = s => String(s ?? '').trim().toLowerCase();
+  const want = norm(base);
+  const inBase = h => { const r = rowOf(h); const b = norm(r ? r.base : String(h?.title ?? '').match(/\((.+)\)\s*$/)?.[1]); return !!b && !!want && (b.includes(want) || want.includes(b)); };
   const kids = hits.filter(isChildhood);
   const hit = kids.find(inBase) ?? kids[0] ?? hits[0];
   const text = rowOf(hit)?.body || textOf(hit);
@@ -114,7 +117,7 @@ async function result(base) {
     fetch('/match', { method:'POST', headers:{'content-type':'application/json'}, body: JSON.stringify({ query, base }) })
       .then(r => r.text()).then(t => { try { return JSON.parse(t); } catch { return { raw: t }; } })
       .catch(e => ({ raw: '', err: String(e) })),
-    base === 'United States' ? fetch('/person', { method:'POST', headers:{'content-type':'application/json'}, body: JSON.stringify({ name, picks }) }).catch(() => {}) : Promise.resolve(),
+    base === home ? fetch('/person', { method:'POST', headers:{'content-type':'application/json'}, body: JSON.stringify({ name, picks }) }).catch(() => {}) : Promise.resolve(),
   ]);
   const frag = pickFragment(m, base);
   app.innerHTML = `<div class="fade result">
@@ -122,14 +125,17 @@ async function result(base) {
     <h1>The childhood that recognized you.</h1>
     <p class="frag">${String(frag).replace(/</g,'&lt;')}</p>
     <ul class="lora">${picks.map(p => `<li>${p.name}</li>`).join('')}</ul>
-    <button class="cta" id="lima">${base === 'Lima, Peru' ? 'Back to the United States' : 'See who I would be in Lima'}</button>
+    <input id="alt" placeholder="Another city">
+    <button class="cta" id="swap">See who I would be there</button>
+    ${base !== home ? `<button class="cta" id="back" style="margin-left:8px;background:transparent;color:var(--ink);border:1px solid var(--line)">Back to ${home}</button>` : ''}
     <p class="note">This childhood was generated, not retrieved. The moments above are yours, chosen by recognition. Identity here is a shared base plus a few life-changing experiences, the way a LoRA adapts a base model.</p>
   </div>`;
-  app.querySelector('#lima').onclick = () => result(base === 'Lima, Peru' ? 'United States' : 'Lima, Peru');
+  app.querySelector('#swap').onclick = () => { const c = app.querySelector('#alt').value.trim(); if (c) result(c); };
+  const b = app.querySelector('#back'); if (b) b.onclick = () => result(home);
 }
 
 Promise.all([fetch('/seeds.json').then(r => r.json()), fetch('/childhoods.json').then(r => r.json()).catch(() => [])])
-  .then(([s, c]) => { seeds = s; allRows = Array.isArray(c) ? c : []; repertoire = allRows.filter(x => x.base === 'United States'); render(); });
+  .then(([s, c]) => { seeds = s; allRows = Array.isArray(c) ? c : []; repertoire = allRows; render(); });
 </script>
 </body>
 </html>
