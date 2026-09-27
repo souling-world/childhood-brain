@@ -32,7 +32,7 @@
 <main id="app"></main>
 <script>
 const app = document.getElementById('app');
-let seeds, picks = [], stage = 0, name = '', repertoire = [], alive = [];
+let seeds, picks = [], stage = 0, name = '', repertoire = [], alive = [], allRows = [];
 // Akinator step: score each candidate option by how evenly it splits the childhoods still alive
 function bestSplit(options, key) {
   const pool = alive.length ? alive : repertoire;
@@ -47,13 +47,13 @@ function bestSplit(options, key) {
 function narrow(o) { const pool = alive.length ? alive : repertoire; const next = pool.filter(c => c.links.includes(o.slug)); alive = next.length ? next : pool; }
 const shuffle = a => [...a].sort(() => Math.random() - .5);
 const rounds = () => [ // Jung asks. Change the copy, keep the order.
-  { key:'parents', title:'The first adult in your house.', q:'Pick the one that is closest. Not perfect, closest.' },
-  { key:'parents', title:'The second adult, or the one who was missing.', q:'Closest again.' },
-  { key:'schools', title:'The school.', q:'Where you learned your rank.' },
-  { key:'events',  title:'Something that changed how you weighted everything after.', q:'One, if any.' },
-  { key:'events',  title:'Another.', q:'Or none of these.' },
-  { key:'events',  title:'One more.', q:'Or none of these.' },
-  { key:'events',  title:'Last one.', q:'Or none of these.' },
+  { key:'parents', title:'Who first carried the parent archetype for you?', q:'Pick the one that is closest. Not perfect, closest.' },
+  { key:'parents', title:'And the other, present or cast into shadow?', q:'Closest again.' },
+  { key:'schools', title:'Where the collective first fitted you a persona.', q:'Where you learned your rank.' },
+  { key:'events',  title:'Which encounter rearranged the whole of your psyche?', q:'One, if any.' },
+  { key:'events',  title:'What else has the unconscious kept for you?', q:'Or none of these.' },
+  { key:'events',  title:'Name what you pushed into the shadow.', q:'Or none of these.' },
+  { key:'events',  title:'One last image, and the Self may appear.', q:'Or none of these.' },
 ];
 const el = h => { const t = document.createElement('template'); t.innerHTML = h.trim(); return t.content.firstChild; };
 
@@ -81,15 +81,42 @@ function render() {
   }
 }
 
+// gbrain search --json shape varies by version: an array of {slug, title, type, chunk_text, score} on 0.59,
+// sometimes wrapped ({results}, {hits}, ...), or plain text. Take whatever is there, fall back to raw text.
+function hitsOf(m) {
+  if (m == null) return [];
+  if (typeof m === 'string') { try { return hitsOf(JSON.parse(m)); } catch { return []; } }
+  if (Array.isArray(m)) return m;
+  if (typeof m !== 'object') return [];
+  for (const k of ['results', 'hits', 'data', 'items', 'pages', 'matches']) if (m[k] != null) { const h = hitsOf(m[k]); if (h.length) return h; }
+  if (typeof m.raw === 'string') return hitsOf(m.raw);
+  return (m.slug || m.chunk_text || m.content || m.text) ? [m] : [];
+}
+const slugOf = h => (h && typeof h === 'object') ? String(h.slug ?? h.page_slug ?? h.path ?? h.id ?? '').replace(/\.mdx?$/, '').split('/').pop() : '';
+const textOf = h => typeof h === 'string' ? h : (h?.chunk_text ?? h?.content ?? h?.text ?? h?.body ?? h?.snippet ?? h?.compiled_truth ?? '');
+function pickFragment(m, base) {
+  const hits = hitsOf(m);
+  const rowOf = h => allRows.find(r => r.slug === slugOf(h));
+  const isChildhood = h => h?.type === 'childhood' || slugOf(h).startsWith('childhood-');
+  const inBase = h => { const r = rowOf(h); return r ? r.base === base : /Lima/.test(String(h?.title ?? '')) === (base === 'Lima, Peru'); };
+  const kids = hits.filter(isChildhood);
+  const hit = kids.find(inBase) ?? kids[0] ?? hits[0];
+  const text = rowOf(hit)?.body || textOf(hit);
+  if (text) return text;
+  if (typeof m === 'string') return m;
+  return (m?.raw && String(m.raw).trim()) || m?.err || JSON.stringify(m, null, 2);
+}
+
 async function result(base) {
   app.innerHTML = `<div class="fade"><h1>Searching ${picks.length} moments.</h1><p class="q">Against every childhood in the brain.</p></div>`;
   const query = picks.map(p => `${p.name}. ${p.text}`).join(' ');
   const [m] = await Promise.all([
-    fetch('/match', { method:'POST', headers:{'content-type':'application/json'}, body: JSON.stringify({ query, base }) }).then(r => r.json()),
-    base === 'United States' ? fetch('/person', { method:'POST', headers:{'content-type':'application/json'}, body: JSON.stringify({ name, picks }) }) : Promise.resolve(),
+    fetch('/match', { method:'POST', headers:{'content-type':'application/json'}, body: JSON.stringify({ query, base }) })
+      .then(r => r.text()).then(t => { try { return JSON.parse(t); } catch { return { raw: t }; } })
+      .catch(e => ({ raw: '', err: String(e) })),
+    base === 'United States' ? fetch('/person', { method:'POST', headers:{'content-type':'application/json'}, body: JSON.stringify({ name, picks }) }).catch(() => {}) : Promise.resolve(),
   ]);
-  const hit = Array.isArray(m) ? m[0] : (m.results?.[0] ?? m.hits?.[0] ?? m);
-  const frag = hit?.content ?? hit?.text ?? hit?.body ?? hit?.raw ?? JSON.stringify(m, null, 2);
+  const frag = pickFragment(m, base);
   app.innerHTML = `<div class="fade result">
     <p class="step">${name}, base: ${base}</p>
     <h1>The childhood that recognized you.</h1>
@@ -102,7 +129,7 @@ async function result(base) {
 }
 
 Promise.all([fetch('/seeds.json').then(r => r.json()), fetch('/childhoods.json').then(r => r.json()).catch(() => [])])
-  .then(([s, c]) => { seeds = s; repertoire = c.filter(x => x.base === 'United States'); render(); });
+  .then(([s, c]) => { seeds = s; allRows = Array.isArray(c) ? c : []; repertoire = allRows.filter(x => x.base === 'United States'); render(); });
 </script>
 </body>
 </html>
