@@ -1,0 +1,41 @@
+{
+  "parents": [
+    {"slug":"parent-the-provider","name":"The Provider","text":"Works long hours, shows love through paying for things, rarely says it. Praise is a nod. Absence is the weather."},
+    {"slug":"parent-the-anxious-protector","name":"The Anxious Protector","text":"Checks in constantly, narrates danger, holds too tight. You learn to manage their fear before your own."},
+    {"slug":"parent-the-golden-child-maker","name":"The Golden-Child Maker","text":"Tells everyone you are gifted. Love arrives with a report card. Failure feels like a betrayal of the family story."},
+    {"slug":"parent-the-absent-one","name":"The Absent One","text":"Left, or was there and not there. A photo, a birthday call, a chair. You build a version of them to talk to."},
+    {"slug":"parent-the-friend","name":"The Friend","text":"Treats you like an equal too early. You hear about money and heartbreak at nine. You become the adult in the room."},
+    {"slug":"parent-the-immigrant-striver","name":"The Immigrant Striver","text":"Two jobs, one language at home, another at the door. You translate forms at eight. Sacrifice is the family currency."},
+    {"slug":"parent-the-warm-constant","name":"The Warm Constant","text":"Predictable, present, dinner at six. Feelings are allowed. You do not remember it as remarkable, which is the point."},
+    {"slug":"parent-the-storm","name":"The Storm","text":"Moods run the house. You read the front door closing like a barometer. You become very good at reading rooms."}
+  ],
+  "schools": [
+    {"slug":"school-suburban-public","name":"Suburban Public School","text":"Yellow buses, standardized tests, a gifted track and a lunch table that decides your rank."},
+    {"slug":"school-small-religious","name":"Small Religious School","text":"Uniforms, chapel, one teacher who knew your whole family. Shame and belonging arrive together."},
+    {"slug":"school-underfunded-urban","name":"Underfunded Urban School","text":"Metal detectors, one great teacher who stayed, a library that closed at three. You learned to be sharp early."},
+    {"slug":"school-elite-private","name":"Elite Private School","text":"Ivy on the brochure, everyone's parent is someone. You learned what money sounds like when it is quiet."},
+    {"slug":"school-rural-consolidated","name":"Rural Consolidated School","text":"Forty-minute bus, everyone since kindergarten, football on Friday. Leaving was the plan or the sin."}
+  ],
+  "events": [
+    {"slug":"event-one-adult-saw-you","name":"One adult saw you","text":"A teacher or coach or neighbor said one sentence that you are still living up to."},
+    {"slug":"event-early-responsibility","name":"Early responsibility","text":"You raised a sibling, ran the house, or held the family together before you were twelve."},
+    {"slug":"event-the-move","name":"The move","text":"A city, a country, a language. You arrived as the new kid and never fully unpacked."},
+    {"slug":"event-praise-for-one-trait","name":"Praise for one trait","text":"Smart. Pretty. Strong. Funny. You became the trait and hid the rest."},
+    {"slug":"event-the-rupture","name":"The rupture","text":"Divorce, a death, a departure. The house had a before and an after."},
+    {"slug":"event-public-humiliation","name":"Public humiliation","text":"One moment in front of everyone. You decided something about visibility that day."},
+    {"slug":"event-first-thing-you-loved-alone","name":"First thing you loved alone","text":"A book, a game, a sky. Nobody gave it to you and nobody could take it."},
+    {"slug":"event-money-went-away","name":"Money went away","text":"A layoff, a lost house, a quiet downgrade. You learned to notice prices."},
+    {"slug":"event-the-secret","name":"The secret","text":"Something in the family nobody said out loud. You learned to hold what could not be held."},
+    {"slug":"event-being-the-translator","name":"Being the translator","text":"Between languages, between parents, between worlds. You became the bridge."},
+    {"slug":"event-the-win","name":"The win","text":"A trophy, a scholarship, a stage. For one day the family story was about you and it was good."},
+    {"slug":"event-the-illness","name":"The illness","text":"Yours or theirs. Hospitals, waiting rooms, learning that bodies can fail."},
+    {"slug":"event-the-friend-who-left","name":"The friend who left","text":"The first person you chose who chose someone else."},
+    {"slug":"event-caught-and-forgiven","name":"Caught and forgiven","text":"You did the wrong thing, got caught, and someone loved you anyway. You learned repair is possible."},
+    {"slug":"event-caught-and-shamed","name":"Caught and shamed","text":"You did the wrong thing and it became who you were for a year. You learned to hide."},
+    {"slug":"event-the-long-summer-alone","name":"The long summer alone","text":"Weeks with no one home. You built a world to live in."},
+    {"slug":"event-the-grandparent","name":"The grandparent","text":"One older person who had time. Their kitchen was the safest room in the world."},
+    {"slug":"event-the-comparison","name":"The comparison","text":"A sibling or cousin who was the standard. You measured yourself in someone else's units."},
+    {"slug":"event-the-first-no","name":"The first no","text":"You refused something everyone expected. It cost you and it made you."},
+    {"slug":"event-being-needed","name":"Being needed","text":"Someone relied on you and you liked it more than you should have. Usefulness became love."}
+  ]
+}
