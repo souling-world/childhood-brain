@@ -1,5 +1,11 @@
 # Childhood Brain (2h hackathon kit)
 
+## Why
+
+Most people who build something big can point to a few childhood moments that changed the weights: a parent who left, a school that didn't fit, a move to a country where you were the translator. Those moments are the adapter. They are also the part of a person that no resume, no onboarding form, and no AI assistant ever sees, so every tool treats a person as the base model and misses the LoRA.
+
+This kit inverts that. It generates childhoods, finds the one that recognizes you, and hands you a page that says, in seven lines, what shaped you. For someone with a complex childhood that page does three things: it names the pattern instead of leaving it as a private feeling, it shows the same adapter composed with a different base so you can see what was circumstance and what was you, and it gives you an artifact you can hand to a cofounder, a therapist, or an AI so they start from who you are. The people who need this most are the ones whose childhood was hardest, because that is where the adapter is strongest and least understood.
+
 A GBrain that holds generated childhoods. A person's childhood = parent + parent + school + a few life-changing events, concatenated. Seven taps, then `gbrain search` finds the childhood that recognizes you. Swap the base to any city and ask again.
 
 ## Run order (gbrain 0.59, keyless PGLite)
@@ -16,6 +22,9 @@ Pages carry no `slug:` frontmatter on purpose: gbrain derives slugs from paths a
 ## What to edit
 - `seeds.json` is the taste layer: parents, schools, rank-changing events. Change these, not prompts, if strangers do not go quiet at the end.
 - Person pages are written to `brain/people/` at demo time. That page is the person's LoRA and the shareable artifact.
+
+## Evals
+`evals/` scores how accurately a brain reconstructs a real person: held-out recall vs a base-rate guesser, a five-way self-recognition lineup, and consistency across paraphrases. `bun run eval --brain prototype --eval all` prints one table. See `evals/README.md`.
 
 ## Pitch
 We did not collect anyone's childhood. We generated a hundred and let GBrain find yours. A childhood is not one person's; it is parents plus school plus a few moments that changed the weights. That adapter fits in seven lines, and it composes with any base, so we can show you who you would be anywhere.
