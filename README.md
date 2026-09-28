@@ -41,7 +41,7 @@ Prototype brain (the quiz's 25-childhood nearest-neighbor matcher) on 4 public f
 |---|---|---|
 | held_out_recall | 8.3% | 25.0% base rate |
 | self_recognition (simulated) | 0.0% | 20% |
-| consistency | 100% | n/a |
+| consistency | 100% | 25% random agreement (4 options) |
 
 Weakest fact type: stress reactions.
 
