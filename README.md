@@ -26,5 +26,42 @@ Pages carry no `slug:` frontmatter on purpose: gbrain derives slugs from paths a
 ## Evals
 `evals/` scores how accurately a brain reconstructs a real person: held-out recall vs a base-rate guesser, a five-way self-recognition lineup, and consistency across paraphrases. `bun run eval --brain prototype --eval all` prints one table. See `evals/README.md`.
 
+## Evals
+
+`evals/` scores how accurately a brain reconstructs a real person. Any brain plugs in behind one interface, `brain.query(person_facts, question) -> answer`, and `bun run eval --brain <name> --eval all` prints one table.
+
+- `held_out_recall`: feed 70% of a person's facts, predict the hidden 30%. Score vs a base-rate guesser that picks the most common answer per field. Broken down by fact type: facts, preferences, fears, stress reactions, childhood fragments.
+- `self_recognition`: the matched childhood plus 4 same-bucket decoys. Percent who pick their own, chance 20%, plus a 1 to 5 "this is me" rating.
+- `consistency`: 20 fact questions, 10 phrasings each, agreement rate.
+
+Data lives in `evals/data/`. `synthetic/` is generated and clearly fake. `consented/` is gitignored and holds real entries added under CONSENT.md. `public/` holds public figures built from cited sources; public is not consent, and those records are for comparing brains only.
+
+### Results, Sep 27 2026
+
+Prototype brain (the quiz's 25-childhood nearest-neighbor matcher) on 4 public founders:
+
+| Eval | Score | Baseline / chance |
+|---|---|---|
+| held_out_recall | 8.3% | 25.0% base rate |
+| self_recognition (simulated) | 0.0% | 20% |
+| consistency | 100% | n/a |
+
+Weakest fact type: stress reactions.
+
+### Analysis
+
+- The prototype loses to a base-rate guesser on real people. Seven taps over 25 templates is a good intake and a bad predictor. The quiz stays as the front door; the brain has to be model-backed.
+- Consistency at 100% is a property of a deterministic matcher, not evidence of accuracy.
+- A separate run ranked the 4 founders above 16 synthetic distractors with AUC 1.00, and the model named 3 of 4 from their facts alone. That is recognition, not simulation: the model already knows these people. Public-figure results are reported as a leakage check, never as a prediction score.
+- The number that matters is held-out recall on people the model cannot know. That requires consented entries, and none existed at the time of this run.
+
+### Next steps
+
+1. Run the llm brain on `synthetic/people.json`, then on `consented/` as entries arrive. Report held-out recall lift over baseline, by fact type.
+2. Collect at least 5 consented entries from people the model has no public record of. Run `bun run lineup` with each of them in the room and log the 1 to 5 rating.
+3. Retire the prototype as the default brain once the llm brain beats baseline on consented data. Keep it in the registry as the floor every new brain must clear.
+4. Add a leakage flag to the runner: if a brain names the person from facts alone, mark the run `recognized` and exclude it from the headline table.
+5. Publish the benchmark and the table so other childhood brains can be scored on the same interface.
+
 ## Pitch
 We did not collect anyone's childhood. We generated a hundred and let GBrain find yours. A childhood is not one person's; it is parents plus school plus a few moments that changed the weights. That adapter fits in seven lines, and it fits anyone.
