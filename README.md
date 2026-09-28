@@ -25,6 +25,8 @@ Pages carry no `slug:` frontmatter on purpose: gbrain derives slugs from paths a
 
 ## Evals
 
+Interactive results here: https://claude.ai/artifact/F1MFy1HjYMJgWc1AmMao58
+
 `evals/` scores how accurately a brain reconstructs a real person. Any brain plugs in behind one interface, `brain.query(person_facts, question) -> answer`, and `bun run eval --brain <name> --eval all` prints one table.
 
 - `held_out_recall`: feed 70% of a person's facts, predict the hidden 30%. Score vs a base-rate guesser that picks the most common answer per field. Broken down by fact type: facts, preferences, fears, stress reactions, childhood fragments.
