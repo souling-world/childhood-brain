@@ -24,9 +24,6 @@ Pages carry no `slug:` frontmatter on purpose: gbrain derives slugs from paths a
 - Person pages are written to `brain/people/` at demo time. That page is the person's LoRA and the shareable artifact.
 
 ## Evals
-`evals/` scores how accurately a brain reconstructs a real person: held-out recall vs a base-rate guesser, a five-way self-recognition lineup, and consistency across paraphrases. `bun run eval --brain prototype --eval all` prints one table. See `evals/README.md`.
-
-## Evals
 
 `evals/` scores how accurately a brain reconstructs a real person. Any brain plugs in behind one interface, `brain.query(person_facts, question) -> answer`, and `bun run eval --brain <name> --eval all` prints one table.
 
