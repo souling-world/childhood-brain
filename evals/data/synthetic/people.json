@@ -1,0 +1,7478 @@
+[
+ {
+  "id": "synthetic-001",
+  "synthetic": true,
+  "childhood": {
+   "parents": [
+    "parent-the-provider",
+    "parent-the-anxious-protector"
+   ],
+   "school": "school-elite-private",
+   "events": [
+    "event-caught-and-shamed",
+    "event-being-the-translator",
+    "event-the-win",
+    "event-the-secret"
+   ]
+  },
+  "facts": [
+   {
+    "id": "fear",
+    "type": "fear",
+    "question": "What is this person most afraid of?",
+    "options": [
+     "being left",
+     "failing in public",
+     "being a burden",
+     "losing control"
+    ],
+    "answer": "failing in public"
+   },
+   {
+    "id": "stress",
+    "type": "stress",
+    "question": "Under stress, what does this person do first?",
+    "options": [
+     "go quiet and withdraw",
+     "work harder",
+     "take care of everyone else",
+     "pick a fight"
+    ],
+    "answer": "go quiet and withdraw"
+   },
+   {
+    "id": "work",
+    "type": "preference",
+    "question": "Where does this person do their best work?",
+    "options": [
+     "alone with the problem",
+     "a small trusted crew",
+     "in front of a crowd",
+     "inside a clear structure"
+    ],
+    "answer": "inside a clear structure"
+   },
+   {
+    "id": "praise",
+    "type": "preference",
+    "question": "How does this person want to be recognized?",
+    "options": [
+     "privately, one on one",
+     "publicly",
+     "by results, not words",
+     "praise makes them uneasy"
+    ],
+    "answer": "publicly"
+   },
+   {
+    "id": "birth_order",
+    "type": "fact",
+    "question": "What was this person's birth order?",
+    "options": [
+     "oldest",
+     "middle",
+     "youngest",
+     "only"
+    ],
+    "answer": "youngest"
+   },
+   {
+    "id": "languages",
+    "type": "fact",
+    "question": "How many languages were spoken at home?",
+    "options": [
+     "one",
+     "two",
+     "three or more"
+    ],
+    "answer": "three or more"
+   },
+   {
+    "id": "moves",
+    "type": "fact",
+    "question": "How often did this person move before 12?",
+    "options": [
+     "never moved",
+     "moved once",
+     "moved two or three times",
+     "moved four or more times"
+    ],
+    "answer": "moved once"
+   },
+   {
+    "id": "first_job",
+    "type": "fact",
+    "question": "When did this person start earning money?",
+    "options": [
+     "before 14",
+     "14 to 16",
+     "17 to 19",
+     "20 or later"
+    ],
+    "answer": "17 to 19"
+   },
+   {
+    "id": "school",
+    "type": "childhood",
+    "question": "What kind of school did this person attend?",
+    "options": [
+     "Suburban Public School",
+     "Small Religious School",
+     "Underfunded Urban School",
+     "Elite Private School",
+     "Rural Consolidated School"
+    ],
+    "answer": "Elite Private School"
+   },
+   {
+    "id": "parent",
+    "type": "childhood",
+    "question": "Which of these describes one of this person's parents?",
+    "options": [
+     "The Provider",
+     "The Anxious Protector",
+     "The Golden-Child Maker",
+     "The Absent One",
+     "The Friend",
+     "The Immigrant Striver",
+     "The Warm Constant",
+     "The Storm"
+    ],
+    "answer": "The Provider",
+    "accept": [
+     "The Provider",
+     "The Anxious Protector"
+    ]
+   },
+   {
+    "id": "ev_move",
+    "type": "childhood",
+    "question": "Did this person go through a move that changed everything?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_translator",
+    "type": "childhood",
+    "question": "Did this person translate for their family as a child?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "yes"
+   },
+   {
+    "id": "ev_responsibility",
+    "type": "childhood",
+    "question": "Did this person carry adult responsibility early?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_money",
+    "type": "childhood",
+    "question": "Did the family's money go away during this person's childhood?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   }
+  ]
+ },
+ {
+  "id": "synthetic-002",
+  "synthetic": true,
+  "childhood": {
+   "parents": [
+    "parent-the-storm",
+    "parent-the-friend"
+   ],
+   "school": "school-small-religious",
+   "events": [
+    "event-the-win",
+    "event-the-long-summer-alone",
+    "event-the-illness",
+    "event-being-the-translator"
+   ]
+  },
+  "facts": [
+   {
+    "id": "fear",
+    "type": "fear",
+    "question": "What is this person most afraid of?",
+    "options": [
+     "being left",
+     "failing in public",
+     "being a burden",
+     "losing control"
+    ],
+    "answer": "being a burden"
+   },
+   {
+    "id": "stress",
+    "type": "stress",
+    "question": "Under stress, what does this person do first?",
+    "options": [
+     "go quiet and withdraw",
+     "work harder",
+     "take care of everyone else",
+     "pick a fight"
+    ],
+    "answer": "take care of everyone else"
+   },
+   {
+    "id": "work",
+    "type": "preference",
+    "question": "Where does this person do their best work?",
+    "options": [
+     "alone with the problem",
+     "a small trusted crew",
+     "in front of a crowd",
+     "inside a clear structure"
+    ],
+    "answer": "a small trusted crew"
+   },
+   {
+    "id": "praise",
+    "type": "preference",
+    "question": "How does this person want to be recognized?",
+    "options": [
+     "privately, one on one",
+     "publicly",
+     "by results, not words",
+     "praise makes them uneasy"
+    ],
+    "answer": "publicly"
+   },
+   {
+    "id": "birth_order",
+    "type": "fact",
+    "question": "What was this person's birth order?",
+    "options": [
+     "oldest",
+     "middle",
+     "youngest",
+     "only"
+    ],
+    "answer": "oldest"
+   },
+   {
+    "id": "languages",
+    "type": "fact",
+    "question": "How many languages were spoken at home?",
+    "options": [
+     "one",
+     "two",
+     "three or more"
+    ],
+    "answer": "two"
+   },
+   {
+    "id": "moves",
+    "type": "fact",
+    "question": "How often did this person move before 12?",
+    "options": [
+     "never moved",
+     "moved once",
+     "moved two or three times",
+     "moved four or more times"
+    ],
+    "answer": "moved two or three times"
+   },
+   {
+    "id": "first_job",
+    "type": "fact",
+    "question": "When did this person start earning money?",
+    "options": [
+     "before 14",
+     "14 to 16",
+     "17 to 19",
+     "20 or later"
+    ],
+    "answer": "17 to 19"
+   },
+   {
+    "id": "school",
+    "type": "childhood",
+    "question": "What kind of school did this person attend?",
+    "options": [
+     "Suburban Public School",
+     "Small Religious School",
+     "Underfunded Urban School",
+     "Elite Private School",
+     "Rural Consolidated School"
+    ],
+    "answer": "Small Religious School"
+   },
+   {
+    "id": "parent",
+    "type": "childhood",
+    "question": "Which of these describes one of this person's parents?",
+    "options": [
+     "The Provider",
+     "The Anxious Protector",
+     "The Golden-Child Maker",
+     "The Absent One",
+     "The Friend",
+     "The Immigrant Striver",
+     "The Warm Constant",
+     "The Storm"
+    ],
+    "answer": "The Storm",
+    "accept": [
+     "The Storm",
+     "The Friend"
+    ]
+   },
+   {
+    "id": "ev_move",
+    "type": "childhood",
+    "question": "Did this person go through a move that changed everything?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_translator",
+    "type": "childhood",
+    "question": "Did this person translate for their family as a child?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "yes"
+   },
+   {
+    "id": "ev_responsibility",
+    "type": "childhood",
+    "question": "Did this person carry adult responsibility early?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_money",
+    "type": "childhood",
+    "question": "Did the family's money go away during this person's childhood?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   }
+  ]
+ },
+ {
+  "id": "synthetic-003",
+  "synthetic": true,
+  "childhood": {
+   "parents": [
+    "parent-the-golden-child-maker",
+    "parent-the-friend"
+   ],
+   "school": "school-suburban-public",
+   "events": [
+    "event-the-illness",
+    "event-being-needed",
+    "event-the-friend-who-left",
+    "event-the-secret"
+   ]
+  },
+  "facts": [
+   {
+    "id": "fear",
+    "type": "fear",
+    "question": "What is this person most afraid of?",
+    "options": [
+     "being left",
+     "failing in public",
+     "being a burden",
+     "losing control"
+    ],
+    "answer": "losing control"
+   },
+   {
+    "id": "stress",
+    "type": "stress",
+    "question": "Under stress, what does this person do first?",
+    "options": [
+     "go quiet and withdraw",
+     "work harder",
+     "take care of everyone else",
+     "pick a fight"
+    ],
+    "answer": "take care of everyone else"
+   },
+   {
+    "id": "work",
+    "type": "preference",
+    "question": "Where does this person do their best work?",
+    "options": [
+     "alone with the problem",
+     "a small trusted crew",
+     "in front of a crowd",
+     "inside a clear structure"
+    ],
+    "answer": "in front of a crowd"
+   },
+   {
+    "id": "praise",
+    "type": "preference",
+    "question": "How does this person want to be recognized?",
+    "options": [
+     "privately, one on one",
+     "publicly",
+     "by results, not words",
+     "praise makes them uneasy"
+    ],
+    "answer": "publicly"
+   },
+   {
+    "id": "birth_order",
+    "type": "fact",
+    "question": "What was this person's birth order?",
+    "options": [
+     "oldest",
+     "middle",
+     "youngest",
+     "only"
+    ],
+    "answer": "youngest"
+   },
+   {
+    "id": "languages",
+    "type": "fact",
+    "question": "How many languages were spoken at home?",
+    "options": [
+     "one",
+     "two",
+     "three or more"
+    ],
+    "answer": "one"
+   },
+   {
+    "id": "moves",
+    "type": "fact",
+    "question": "How often did this person move before 12?",
+    "options": [
+     "never moved",
+     "moved once",
+     "moved two or three times",
+     "moved four or more times"
+    ],
+    "answer": "moved once"
+   },
+   {
+    "id": "first_job",
+    "type": "fact",
+    "question": "When did this person start earning money?",
+    "options": [
+     "before 14",
+     "14 to 16",
+     "17 to 19",
+     "20 or later"
+    ],
+    "answer": "17 to 19"
+   },
+   {
+    "id": "school",
+    "type": "childhood",
+    "question": "What kind of school did this person attend?",
+    "options": [
+     "Suburban Public School",
+     "Small Religious School",
+     "Underfunded Urban School",
+     "Elite Private School",
+     "Rural Consolidated School"
+    ],
+    "answer": "Suburban Public School"
+   },
+   {
+    "id": "parent",
+    "type": "childhood",
+    "question": "Which of these describes one of this person's parents?",
+    "options": [
+     "The Provider",
+     "The Anxious Protector",
+     "The Golden-Child Maker",
+     "The Absent One",
+     "The Friend",
+     "The Immigrant Striver",
+     "The Warm Constant",
+     "The Storm"
+    ],
+    "answer": "The Golden-Child Maker",
+    "accept": [
+     "The Golden-Child Maker",
+     "The Friend"
+    ]
+   },
+   {
+    "id": "ev_move",
+    "type": "childhood",
+    "question": "Did this person go through a move that changed everything?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_translator",
+    "type": "childhood",
+    "question": "Did this person translate for their family as a child?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_responsibility",
+    "type": "childhood",
+    "question": "Did this person carry adult responsibility early?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_money",
+    "type": "childhood",
+    "question": "Did the family's money go away during this person's childhood?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   }
+  ]
+ },
+ {
+  "id": "synthetic-004",
+  "synthetic": true,
+  "childhood": {
+   "parents": [
+    "parent-the-absent-one",
+    "parent-the-immigrant-striver"
+   ],
+   "school": "school-rural-consolidated",
+   "events": [
+    "event-the-illness",
+    "event-praise-for-one-trait",
+    "event-the-win",
+    "event-one-adult-saw-you"
+   ]
+  },
+  "facts": [
+   {
+    "id": "fear",
+    "type": "fear",
+    "question": "What is this person most afraid of?",
+    "options": [
+     "being left",
+     "failing in public",
+     "being a burden",
+     "losing control"
+    ],
+    "answer": "being left"
+   },
+   {
+    "id": "stress",
+    "type": "stress",
+    "question": "Under stress, what does this person do first?",
+    "options": [
+     "go quiet and withdraw",
+     "work harder",
+     "take care of everyone else",
+     "pick a fight"
+    ],
+    "answer": "go quiet and withdraw"
+   },
+   {
+    "id": "work",
+    "type": "preference",
+    "question": "Where does this person do their best work?",
+    "options": [
+     "alone with the problem",
+     "a small trusted crew",
+     "in front of a crowd",
+     "inside a clear structure"
+    ],
+    "answer": "alone with the problem"
+   },
+   {
+    "id": "praise",
+    "type": "preference",
+    "question": "How does this person want to be recognized?",
+    "options": [
+     "privately, one on one",
+     "publicly",
+     "by results, not words",
+     "praise makes them uneasy"
+    ],
+    "answer": "publicly"
+   },
+   {
+    "id": "birth_order",
+    "type": "fact",
+    "question": "What was this person's birth order?",
+    "options": [
+     "oldest",
+     "middle",
+     "youngest",
+     "only"
+    ],
+    "answer": "oldest"
+   },
+   {
+    "id": "languages",
+    "type": "fact",
+    "question": "How many languages were spoken at home?",
+    "options": [
+     "one",
+     "two",
+     "three or more"
+    ],
+    "answer": "one"
+   },
+   {
+    "id": "moves",
+    "type": "fact",
+    "question": "How often did this person move before 12?",
+    "options": [
+     "never moved",
+     "moved once",
+     "moved two or three times",
+     "moved four or more times"
+    ],
+    "answer": "moved once"
+   },
+   {
+    "id": "first_job",
+    "type": "fact",
+    "question": "When did this person start earning money?",
+    "options": [
+     "before 14",
+     "14 to 16",
+     "17 to 19",
+     "20 or later"
+    ],
+    "answer": "before 14"
+   },
+   {
+    "id": "school",
+    "type": "childhood",
+    "question": "What kind of school did this person attend?",
+    "options": [
+     "Suburban Public School",
+     "Small Religious School",
+     "Underfunded Urban School",
+     "Elite Private School",
+     "Rural Consolidated School"
+    ],
+    "answer": "Rural Consolidated School"
+   },
+   {
+    "id": "parent",
+    "type": "childhood",
+    "question": "Which of these describes one of this person's parents?",
+    "options": [
+     "The Provider",
+     "The Anxious Protector",
+     "The Golden-Child Maker",
+     "The Absent One",
+     "The Friend",
+     "The Immigrant Striver",
+     "The Warm Constant",
+     "The Storm"
+    ],
+    "answer": "The Absent One",
+    "accept": [
+     "The Absent One",
+     "The Immigrant Striver"
+    ]
+   },
+   {
+    "id": "ev_move",
+    "type": "childhood",
+    "question": "Did this person go through a move that changed everything?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_translator",
+    "type": "childhood",
+    "question": "Did this person translate for their family as a child?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_responsibility",
+    "type": "childhood",
+    "question": "Did this person carry adult responsibility early?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_money",
+    "type": "childhood",
+    "question": "Did the family's money go away during this person's childhood?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   }
+  ]
+ },
+ {
+  "id": "synthetic-005",
+  "synthetic": true,
+  "childhood": {
+   "parents": [
+    "parent-the-golden-child-maker",
+    "parent-the-absent-one"
+   ],
+   "school": "school-underfunded-urban",
+   "events": [
+    "event-the-friend-who-left",
+    "event-caught-and-forgiven",
+    "event-the-move",
+    "event-first-thing-you-loved-alone",
+    "event-the-secret"
+   ]
+  },
+  "facts": [
+   {
+    "id": "fear",
+    "type": "fear",
+    "question": "What is this person most afraid of?",
+    "options": [
+     "being left",
+     "failing in public",
+     "being a burden",
+     "losing control"
+    ],
+    "answer": "being left"
+   },
+   {
+    "id": "stress",
+    "type": "stress",
+    "question": "Under stress, what does this person do first?",
+    "options": [
+     "go quiet and withdraw",
+     "work harder",
+     "take care of everyone else",
+     "pick a fight"
+    ],
+    "answer": "take care of everyone else"
+   },
+   {
+    "id": "work",
+    "type": "preference",
+    "question": "Where does this person do their best work?",
+    "options": [
+     "alone with the problem",
+     "a small trusted crew",
+     "in front of a crowd",
+     "inside a clear structure"
+    ],
+    "answer": "alone with the problem"
+   },
+   {
+    "id": "praise",
+    "type": "preference",
+    "question": "How does this person want to be recognized?",
+    "options": [
+     "privately, one on one",
+     "publicly",
+     "by results, not words",
+     "praise makes them uneasy"
+    ],
+    "answer": "publicly"
+   },
+   {
+    "id": "birth_order",
+    "type": "fact",
+    "question": "What was this person's birth order?",
+    "options": [
+     "oldest",
+     "middle",
+     "youngest",
+     "only"
+    ],
+    "answer": "middle"
+   },
+   {
+    "id": "languages",
+    "type": "fact",
+    "question": "How many languages were spoken at home?",
+    "options": [
+     "one",
+     "two",
+     "three or more"
+    ],
+    "answer": "one"
+   },
+   {
+    "id": "moves",
+    "type": "fact",
+    "question": "How often did this person move before 12?",
+    "options": [
+     "never moved",
+     "moved once",
+     "moved two or three times",
+     "moved four or more times"
+    ],
+    "answer": "moved two or three times"
+   },
+   {
+    "id": "first_job",
+    "type": "fact",
+    "question": "When did this person start earning money?",
+    "options": [
+     "before 14",
+     "14 to 16",
+     "17 to 19",
+     "20 or later"
+    ],
+    "answer": "before 14"
+   },
+   {
+    "id": "school",
+    "type": "childhood",
+    "question": "What kind of school did this person attend?",
+    "options": [
+     "Suburban Public School",
+     "Small Religious School",
+     "Underfunded Urban School",
+     "Elite Private School",
+     "Rural Consolidated School"
+    ],
+    "answer": "Underfunded Urban School"
+   },
+   {
+    "id": "parent",
+    "type": "childhood",
+    "question": "Which of these describes one of this person's parents?",
+    "options": [
+     "The Provider",
+     "The Anxious Protector",
+     "The Golden-Child Maker",
+     "The Absent One",
+     "The Friend",
+     "The Immigrant Striver",
+     "The Warm Constant",
+     "The Storm"
+    ],
+    "answer": "The Golden-Child Maker",
+    "accept": [
+     "The Golden-Child Maker",
+     "The Absent One"
+    ]
+   },
+   {
+    "id": "ev_move",
+    "type": "childhood",
+    "question": "Did this person go through a move that changed everything?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "yes"
+   },
+   {
+    "id": "ev_translator",
+    "type": "childhood",
+    "question": "Did this person translate for their family as a child?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_responsibility",
+    "type": "childhood",
+    "question": "Did this person carry adult responsibility early?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_money",
+    "type": "childhood",
+    "question": "Did the family's money go away during this person's childhood?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   }
+  ]
+ },
+ {
+  "id": "synthetic-006",
+  "synthetic": true,
+  "childhood": {
+   "parents": [
+    "parent-the-absent-one",
+    "parent-the-anxious-protector"
+   ],
+   "school": "school-suburban-public",
+   "events": [
+    "event-being-needed",
+    "event-the-long-summer-alone",
+    "event-the-move",
+    "event-the-friend-who-left",
+    "event-caught-and-shamed"
+   ]
+  },
+  "facts": [
+   {
+    "id": "fear",
+    "type": "fear",
+    "question": "What is this person most afraid of?",
+    "options": [
+     "being left",
+     "failing in public",
+     "being a burden",
+     "losing control"
+    ],
+    "answer": "being left"
+   },
+   {
+    "id": "stress",
+    "type": "stress",
+    "question": "Under stress, what does this person do first?",
+    "options": [
+     "go quiet and withdraw",
+     "work harder",
+     "take care of everyone else",
+     "pick a fight"
+    ],
+    "answer": "go quiet and withdraw"
+   },
+   {
+    "id": "work",
+    "type": "preference",
+    "question": "Where does this person do their best work?",
+    "options": [
+     "alone with the problem",
+     "a small trusted crew",
+     "in front of a crowd",
+     "inside a clear structure"
+    ],
+    "answer": "inside a clear structure"
+   },
+   {
+    "id": "praise",
+    "type": "preference",
+    "question": "How does this person want to be recognized?",
+    "options": [
+     "privately, one on one",
+     "publicly",
+     "by results, not words",
+     "praise makes them uneasy"
+    ],
+    "answer": "praise makes them uneasy"
+   },
+   {
+    "id": "birth_order",
+    "type": "fact",
+    "question": "What was this person's birth order?",
+    "options": [
+     "oldest",
+     "middle",
+     "youngest",
+     "only"
+    ],
+    "answer": "only"
+   },
+   {
+    "id": "languages",
+    "type": "fact",
+    "question": "How many languages were spoken at home?",
+    "options": [
+     "one",
+     "two",
+     "three or more"
+    ],
+    "answer": "one"
+   },
+   {
+    "id": "moves",
+    "type": "fact",
+    "question": "How often did this person move before 12?",
+    "options": [
+     "never moved",
+     "moved once",
+     "moved two or three times",
+     "moved four or more times"
+    ],
+    "answer": "moved two or three times"
+   },
+   {
+    "id": "first_job",
+    "type": "fact",
+    "question": "When did this person start earning money?",
+    "options": [
+     "before 14",
+     "14 to 16",
+     "17 to 19",
+     "20 or later"
+    ],
+    "answer": "17 to 19"
+   },
+   {
+    "id": "school",
+    "type": "childhood",
+    "question": "What kind of school did this person attend?",
+    "options": [
+     "Suburban Public School",
+     "Small Religious School",
+     "Underfunded Urban School",
+     "Elite Private School",
+     "Rural Consolidated School"
+    ],
+    "answer": "Suburban Public School"
+   },
+   {
+    "id": "parent",
+    "type": "childhood",
+    "question": "Which of these describes one of this person's parents?",
+    "options": [
+     "The Provider",
+     "The Anxious Protector",
+     "The Golden-Child Maker",
+     "The Absent One",
+     "The Friend",
+     "The Immigrant Striver",
+     "The Warm Constant",
+     "The Storm"
+    ],
+    "answer": "The Absent One",
+    "accept": [
+     "The Absent One",
+     "The Anxious Protector"
+    ]
+   },
+   {
+    "id": "ev_move",
+    "type": "childhood",
+    "question": "Did this person go through a move that changed everything?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "yes"
+   },
+   {
+    "id": "ev_translator",
+    "type": "childhood",
+    "question": "Did this person translate for their family as a child?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_responsibility",
+    "type": "childhood",
+    "question": "Did this person carry adult responsibility early?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_money",
+    "type": "childhood",
+    "question": "Did the family's money go away during this person's childhood?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   }
+  ]
+ },
+ {
+  "id": "synthetic-007",
+  "synthetic": true,
+  "childhood": {
+   "parents": [
+    "parent-the-storm",
+    "parent-the-golden-child-maker"
+   ],
+   "school": "school-underfunded-urban",
+   "events": [
+    "event-one-adult-saw-you",
+    "event-the-move",
+    "event-the-first-no",
+    "event-the-comparison",
+    "event-being-the-translator"
+   ]
+  },
+  "facts": [
+   {
+    "id": "fear",
+    "type": "fear",
+    "question": "What is this person most afraid of?",
+    "options": [
+     "being left",
+     "failing in public",
+     "being a burden",
+     "losing control"
+    ],
+    "answer": "failing in public"
+   },
+   {
+    "id": "stress",
+    "type": "stress",
+    "question": "Under stress, what does this person do first?",
+    "options": [
+     "go quiet and withdraw",
+     "work harder",
+     "take care of everyone else",
+     "pick a fight"
+    ],
+    "answer": "pick a fight"
+   },
+   {
+    "id": "work",
+    "type": "preference",
+    "question": "Where does this person do their best work?",
+    "options": [
+     "alone with the problem",
+     "a small trusted crew",
+     "in front of a crowd",
+     "inside a clear structure"
+    ],
+    "answer": "in front of a crowd"
+   },
+   {
+    "id": "praise",
+    "type": "preference",
+    "question": "How does this person want to be recognized?",
+    "options": [
+     "privately, one on one",
+     "publicly",
+     "by results, not words",
+     "praise makes them uneasy"
+    ],
+    "answer": "publicly"
+   },
+   {
+    "id": "birth_order",
+    "type": "fact",
+    "question": "What was this person's birth order?",
+    "options": [
+     "oldest",
+     "middle",
+     "youngest",
+     "only"
+    ],
+    "answer": "youngest"
+   },
+   {
+    "id": "languages",
+    "type": "fact",
+    "question": "How many languages were spoken at home?",
+    "options": [
+     "one",
+     "two",
+     "three or more"
+    ],
+    "answer": "two"
+   },
+   {
+    "id": "moves",
+    "type": "fact",
+    "question": "How often did this person move before 12?",
+    "options": [
+     "never moved",
+     "moved once",
+     "moved two or three times",
+     "moved four or more times"
+    ],
+    "answer": "moved two or three times"
+   },
+   {
+    "id": "first_job",
+    "type": "fact",
+    "question": "When did this person start earning money?",
+    "options": [
+     "before 14",
+     "14 to 16",
+     "17 to 19",
+     "20 or later"
+    ],
+    "answer": "before 14"
+   },
+   {
+    "id": "school",
+    "type": "childhood",
+    "question": "What kind of school did this person attend?",
+    "options": [
+     "Suburban Public School",
+     "Small Religious School",
+     "Underfunded Urban School",
+     "Elite Private School",
+     "Rural Consolidated School"
+    ],
+    "answer": "Underfunded Urban School"
+   },
+   {
+    "id": "parent",
+    "type": "childhood",
+    "question": "Which of these describes one of this person's parents?",
+    "options": [
+     "The Provider",
+     "The Anxious Protector",
+     "The Golden-Child Maker",
+     "The Absent One",
+     "The Friend",
+     "The Immigrant Striver",
+     "The Warm Constant",
+     "The Storm"
+    ],
+    "answer": "The Storm",
+    "accept": [
+     "The Storm",
+     "The Golden-Child Maker"
+    ]
+   },
+   {
+    "id": "ev_move",
+    "type": "childhood",
+    "question": "Did this person go through a move that changed everything?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "yes"
+   },
+   {
+    "id": "ev_translator",
+    "type": "childhood",
+    "question": "Did this person translate for their family as a child?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "yes"
+   },
+   {
+    "id": "ev_responsibility",
+    "type": "childhood",
+    "question": "Did this person carry adult responsibility early?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_money",
+    "type": "childhood",
+    "question": "Did the family's money go away during this person's childhood?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   }
+  ]
+ },
+ {
+  "id": "synthetic-008",
+  "synthetic": true,
+  "childhood": {
+   "parents": [
+    "parent-the-friend",
+    "parent-the-absent-one"
+   ],
+   "school": "school-suburban-public",
+   "events": [
+    "event-the-move",
+    "event-public-humiliation",
+    "event-first-thing-you-loved-alone",
+    "event-the-secret"
+   ]
+  },
+  "facts": [
+   {
+    "id": "fear",
+    "type": "fear",
+    "question": "What is this person most afraid of?",
+    "options": [
+     "being left",
+     "failing in public",
+     "being a burden",
+     "losing control"
+    ],
+    "answer": "being left"
+   },
+   {
+    "id": "stress",
+    "type": "stress",
+    "question": "Under stress, what does this person do first?",
+    "options": [
+     "go quiet and withdraw",
+     "work harder",
+     "take care of everyone else",
+     "pick a fight"
+    ],
+    "answer": "go quiet and withdraw"
+   },
+   {
+    "id": "work",
+    "type": "preference",
+    "question": "Where does this person do their best work?",
+    "options": [
+     "alone with the problem",
+     "a small trusted crew",
+     "in front of a crowd",
+     "inside a clear structure"
+    ],
+    "answer": "alone with the problem"
+   },
+   {
+    "id": "praise",
+    "type": "preference",
+    "question": "How does this person want to be recognized?",
+    "options": [
+     "privately, one on one",
+     "publicly",
+     "by results, not words",
+     "praise makes them uneasy"
+    ],
+    "answer": "by results, not words"
+   },
+   {
+    "id": "birth_order",
+    "type": "fact",
+    "question": "What was this person's birth order?",
+    "options": [
+     "oldest",
+     "middle",
+     "youngest",
+     "only"
+    ],
+    "answer": "oldest"
+   },
+   {
+    "id": "languages",
+    "type": "fact",
+    "question": "How many languages were spoken at home?",
+    "options": [
+     "one",
+     "two",
+     "three or more"
+    ],
+    "answer": "one"
+   },
+   {
+    "id": "moves",
+    "type": "fact",
+    "question": "How often did this person move before 12?",
+    "options": [
+     "never moved",
+     "moved once",
+     "moved two or three times",
+     "moved four or more times"
+    ],
+    "answer": "moved two or three times"
+   },
+   {
+    "id": "first_job",
+    "type": "fact",
+    "question": "When did this person start earning money?",
+    "options": [
+     "before 14",
+     "14 to 16",
+     "17 to 19",
+     "20 or later"
+    ],
+    "answer": "14 to 16"
+   },
+   {
+    "id": "school",
+    "type": "childhood",
+    "question": "What kind of school did this person attend?",
+    "options": [
+     "Suburban Public School",
+     "Small Religious School",
+     "Underfunded Urban School",
+     "Elite Private School",
+     "Rural Consolidated School"
+    ],
+    "answer": "Suburban Public School"
+   },
+   {
+    "id": "parent",
+    "type": "childhood",
+    "question": "Which of these describes one of this person's parents?",
+    "options": [
+     "The Provider",
+     "The Anxious Protector",
+     "The Golden-Child Maker",
+     "The Absent One",
+     "The Friend",
+     "The Immigrant Striver",
+     "The Warm Constant",
+     "The Storm"
+    ],
+    "answer": "The Friend",
+    "accept": [
+     "The Friend",
+     "The Absent One"
+    ]
+   },
+   {
+    "id": "ev_move",
+    "type": "childhood",
+    "question": "Did this person go through a move that changed everything?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "yes"
+   },
+   {
+    "id": "ev_translator",
+    "type": "childhood",
+    "question": "Did this person translate for their family as a child?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_responsibility",
+    "type": "childhood",
+    "question": "Did this person carry adult responsibility early?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_money",
+    "type": "childhood",
+    "question": "Did the family's money go away during this person's childhood?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   }
+  ]
+ },
+ {
+  "id": "synthetic-009",
+  "synthetic": true,
+  "childhood": {
+   "parents": [
+    "parent-the-anxious-protector",
+    "parent-the-storm"
+   ],
+   "school": "school-elite-private",
+   "events": [
+    "event-first-thing-you-loved-alone",
+    "event-caught-and-forgiven",
+    "event-the-friend-who-left"
+   ]
+  },
+  "facts": [
+   {
+    "id": "fear",
+    "type": "fear",
+    "question": "What is this person most afraid of?",
+    "options": [
+     "being left",
+     "failing in public",
+     "being a burden",
+     "losing control"
+    ],
+    "answer": "losing control"
+   },
+   {
+    "id": "stress",
+    "type": "stress",
+    "question": "Under stress, what does this person do first?",
+    "options": [
+     "go quiet and withdraw",
+     "work harder",
+     "take care of everyone else",
+     "pick a fight"
+    ],
+    "answer": "pick a fight"
+   },
+   {
+    "id": "work",
+    "type": "preference",
+    "question": "Where does this person do their best work?",
+    "options": [
+     "alone with the problem",
+     "a small trusted crew",
+     "in front of a crowd",
+     "inside a clear structure"
+    ],
+    "answer": "inside a clear structure"
+   },
+   {
+    "id": "praise",
+    "type": "preference",
+    "question": "How does this person want to be recognized?",
+    "options": [
+     "privately, one on one",
+     "publicly",
+     "by results, not words",
+     "praise makes them uneasy"
+    ],
+    "answer": "publicly"
+   },
+   {
+    "id": "birth_order",
+    "type": "fact",
+    "question": "What was this person's birth order?",
+    "options": [
+     "oldest",
+     "middle",
+     "youngest",
+     "only"
+    ],
+    "answer": "oldest"
+   },
+   {
+    "id": "languages",
+    "type": "fact",
+    "question": "How many languages were spoken at home?",
+    "options": [
+     "one",
+     "two",
+     "three or more"
+    ],
+    "answer": "one"
+   },
+   {
+    "id": "moves",
+    "type": "fact",
+    "question": "How often did this person move before 12?",
+    "options": [
+     "never moved",
+     "moved once",
+     "moved two or three times",
+     "moved four or more times"
+    ],
+    "answer": "never moved"
+   },
+   {
+    "id": "first_job",
+    "type": "fact",
+    "question": "When did this person start earning money?",
+    "options": [
+     "before 14",
+     "14 to 16",
+     "17 to 19",
+     "20 or later"
+    ],
+    "answer": "17 to 19"
+   },
+   {
+    "id": "school",
+    "type": "childhood",
+    "question": "What kind of school did this person attend?",
+    "options": [
+     "Suburban Public School",
+     "Small Religious School",
+     "Underfunded Urban School",
+     "Elite Private School",
+     "Rural Consolidated School"
+    ],
+    "answer": "Elite Private School"
+   },
+   {
+    "id": "parent",
+    "type": "childhood",
+    "question": "Which of these describes one of this person's parents?",
+    "options": [
+     "The Provider",
+     "The Anxious Protector",
+     "The Golden-Child Maker",
+     "The Absent One",
+     "The Friend",
+     "The Immigrant Striver",
+     "The Warm Constant",
+     "The Storm"
+    ],
+    "answer": "The Anxious Protector",
+    "accept": [
+     "The Anxious Protector",
+     "The Storm"
+    ]
+   },
+   {
+    "id": "ev_move",
+    "type": "childhood",
+    "question": "Did this person go through a move that changed everything?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_translator",
+    "type": "childhood",
+    "question": "Did this person translate for their family as a child?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_responsibility",
+    "type": "childhood",
+    "question": "Did this person carry adult responsibility early?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_money",
+    "type": "childhood",
+    "question": "Did the family's money go away during this person's childhood?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   }
+  ]
+ },
+ {
+  "id": "synthetic-010",
+  "synthetic": true,
+  "childhood": {
+   "parents": [
+    "parent-the-anxious-protector",
+    "parent-the-provider"
+   ],
+   "school": "school-underfunded-urban",
+   "events": [
+    "event-being-needed",
+    "event-the-first-no",
+    "event-first-thing-you-loved-alone"
+   ]
+  },
+  "facts": [
+   {
+    "id": "fear",
+    "type": "fear",
+    "question": "What is this person most afraid of?",
+    "options": [
+     "being left",
+     "failing in public",
+     "being a burden",
+     "losing control"
+    ],
+    "answer": "losing control"
+   },
+   {
+    "id": "stress",
+    "type": "stress",
+    "question": "Under stress, what does this person do first?",
+    "options": [
+     "go quiet and withdraw",
+     "work harder",
+     "take care of everyone else",
+     "pick a fight"
+    ],
+    "answer": "take care of everyone else"
+   },
+   {
+    "id": "work",
+    "type": "preference",
+    "question": "Where does this person do their best work?",
+    "options": [
+     "alone with the problem",
+     "a small trusted crew",
+     "in front of a crowd",
+     "inside a clear structure"
+    ],
+    "answer": "inside a clear structure"
+   },
+   {
+    "id": "praise",
+    "type": "preference",
+    "question": "How does this person want to be recognized?",
+    "options": [
+     "privately, one on one",
+     "publicly",
+     "by results, not words",
+     "praise makes them uneasy"
+    ],
+    "answer": "praise makes them uneasy"
+   },
+   {
+    "id": "birth_order",
+    "type": "fact",
+    "question": "What was this person's birth order?",
+    "options": [
+     "oldest",
+     "middle",
+     "youngest",
+     "only"
+    ],
+    "answer": "oldest"
+   },
+   {
+    "id": "languages",
+    "type": "fact",
+    "question": "How many languages were spoken at home?",
+    "options": [
+     "one",
+     "two",
+     "three or more"
+    ],
+    "answer": "one"
+   },
+   {
+    "id": "moves",
+    "type": "fact",
+    "question": "How often did this person move before 12?",
+    "options": [
+     "never moved",
+     "moved once",
+     "moved two or three times",
+     "moved four or more times"
+    ],
+    "answer": "never moved"
+   },
+   {
+    "id": "first_job",
+    "type": "fact",
+    "question": "When did this person start earning money?",
+    "options": [
+     "before 14",
+     "14 to 16",
+     "17 to 19",
+     "20 or later"
+    ],
+    "answer": "17 to 19"
+   },
+   {
+    "id": "school",
+    "type": "childhood",
+    "question": "What kind of school did this person attend?",
+    "options": [
+     "Suburban Public School",
+     "Small Religious School",
+     "Underfunded Urban School",
+     "Elite Private School",
+     "Rural Consolidated School"
+    ],
+    "answer": "Underfunded Urban School"
+   },
+   {
+    "id": "parent",
+    "type": "childhood",
+    "question": "Which of these describes one of this person's parents?",
+    "options": [
+     "The Provider",
+     "The Anxious Protector",
+     "The Golden-Child Maker",
+     "The Absent One",
+     "The Friend",
+     "The Immigrant Striver",
+     "The Warm Constant",
+     "The Storm"
+    ],
+    "answer": "The Anxious Protector",
+    "accept": [
+     "The Anxious Protector",
+     "The Provider"
+    ]
+   },
+   {
+    "id": "ev_move",
+    "type": "childhood",
+    "question": "Did this person go through a move that changed everything?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_translator",
+    "type": "childhood",
+    "question": "Did this person translate for their family as a child?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_responsibility",
+    "type": "childhood",
+    "question": "Did this person carry adult responsibility early?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_money",
+    "type": "childhood",
+    "question": "Did the family's money go away during this person's childhood?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   }
+  ]
+ },
+ {
+  "id": "synthetic-011",
+  "synthetic": true,
+  "childhood": {
+   "parents": [
+    "parent-the-anxious-protector",
+    "parent-the-golden-child-maker"
+   ],
+   "school": "school-elite-private",
+   "events": [
+    "event-praise-for-one-trait",
+    "event-the-long-summer-alone",
+    "event-the-first-no"
+   ]
+  },
+  "facts": [
+   {
+    "id": "fear",
+    "type": "fear",
+    "question": "What is this person most afraid of?",
+    "options": [
+     "being left",
+     "failing in public",
+     "being a burden",
+     "losing control"
+    ],
+    "answer": "failing in public"
+   },
+   {
+    "id": "stress",
+    "type": "stress",
+    "question": "Under stress, what does this person do first?",
+    "options": [
+     "go quiet and withdraw",
+     "work harder",
+     "take care of everyone else",
+     "pick a fight"
+    ],
+    "answer": "go quiet and withdraw"
+   },
+   {
+    "id": "work",
+    "type": "preference",
+    "question": "Where does this person do their best work?",
+    "options": [
+     "alone with the problem",
+     "a small trusted crew",
+     "in front of a crowd",
+     "inside a clear structure"
+    ],
+    "answer": "in front of a crowd"
+   },
+   {
+    "id": "praise",
+    "type": "preference",
+    "question": "How does this person want to be recognized?",
+    "options": [
+     "privately, one on one",
+     "publicly",
+     "by results, not words",
+     "praise makes them uneasy"
+    ],
+    "answer": "publicly"
+   },
+   {
+    "id": "birth_order",
+    "type": "fact",
+    "question": "What was this person's birth order?",
+    "options": [
+     "oldest",
+     "middle",
+     "youngest",
+     "only"
+    ],
+    "answer": "only"
+   },
+   {
+    "id": "languages",
+    "type": "fact",
+    "question": "How many languages were spoken at home?",
+    "options": [
+     "one",
+     "two",
+     "three or more"
+    ],
+    "answer": "one"
+   },
+   {
+    "id": "moves",
+    "type": "fact",
+    "question": "How often did this person move before 12?",
+    "options": [
+     "never moved",
+     "moved once",
+     "moved two or three times",
+     "moved four or more times"
+    ],
+    "answer": "never moved"
+   },
+   {
+    "id": "first_job",
+    "type": "fact",
+    "question": "When did this person start earning money?",
+    "options": [
+     "before 14",
+     "14 to 16",
+     "17 to 19",
+     "20 or later"
+    ],
+    "answer": "14 to 16"
+   },
+   {
+    "id": "school",
+    "type": "childhood",
+    "question": "What kind of school did this person attend?",
+    "options": [
+     "Suburban Public School",
+     "Small Religious School",
+     "Underfunded Urban School",
+     "Elite Private School",
+     "Rural Consolidated School"
+    ],
+    "answer": "Elite Private School"
+   },
+   {
+    "id": "parent",
+    "type": "childhood",
+    "question": "Which of these describes one of this person's parents?",
+    "options": [
+     "The Provider",
+     "The Anxious Protector",
+     "The Golden-Child Maker",
+     "The Absent One",
+     "The Friend",
+     "The Immigrant Striver",
+     "The Warm Constant",
+     "The Storm"
+    ],
+    "answer": "The Anxious Protector",
+    "accept": [
+     "The Anxious Protector",
+     "The Golden-Child Maker"
+    ]
+   },
+   {
+    "id": "ev_move",
+    "type": "childhood",
+    "question": "Did this person go through a move that changed everything?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_translator",
+    "type": "childhood",
+    "question": "Did this person translate for their family as a child?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_responsibility",
+    "type": "childhood",
+    "question": "Did this person carry adult responsibility early?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_money",
+    "type": "childhood",
+    "question": "Did the family's money go away during this person's childhood?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   }
+  ]
+ },
+ {
+  "id": "synthetic-012",
+  "synthetic": true,
+  "childhood": {
+   "parents": [
+    "parent-the-anxious-protector",
+    "parent-the-golden-child-maker"
+   ],
+   "school": "school-underfunded-urban",
+   "events": [
+    "event-the-rupture",
+    "event-the-grandparent",
+    "event-the-move",
+    "event-caught-and-forgiven"
+   ]
+  },
+  "facts": [
+   {
+    "id": "fear",
+    "type": "fear",
+    "question": "What is this person most afraid of?",
+    "options": [
+     "being left",
+     "failing in public",
+     "being a burden",
+     "losing control"
+    ],
+    "answer": "failing in public"
+   },
+   {
+    "id": "stress",
+    "type": "stress",
+    "question": "Under stress, what does this person do first?",
+    "options": [
+     "go quiet and withdraw",
+     "work harder",
+     "take care of everyone else",
+     "pick a fight"
+    ],
+    "answer": "go quiet and withdraw"
+   },
+   {
+    "id": "work",
+    "type": "preference",
+    "question": "Where does this person do their best work?",
+    "options": [
+     "alone with the problem",
+     "a small trusted crew",
+     "in front of a crowd",
+     "inside a clear structure"
+    ],
+    "answer": "in front of a crowd"
+   },
+   {
+    "id": "praise",
+    "type": "preference",
+    "question": "How does this person want to be recognized?",
+    "options": [
+     "privately, one on one",
+     "publicly",
+     "by results, not words",
+     "praise makes them uneasy"
+    ],
+    "answer": "publicly"
+   },
+   {
+    "id": "birth_order",
+    "type": "fact",
+    "question": "What was this person's birth order?",
+    "options": [
+     "oldest",
+     "middle",
+     "youngest",
+     "only"
+    ],
+    "answer": "middle"
+   },
+   {
+    "id": "languages",
+    "type": "fact",
+    "question": "How many languages were spoken at home?",
+    "options": [
+     "one",
+     "two",
+     "three or more"
+    ],
+    "answer": "one"
+   },
+   {
+    "id": "moves",
+    "type": "fact",
+    "question": "How often did this person move before 12?",
+    "options": [
+     "never moved",
+     "moved once",
+     "moved two or three times",
+     "moved four or more times"
+    ],
+    "answer": "moved two or three times"
+   },
+   {
+    "id": "first_job",
+    "type": "fact",
+    "question": "When did this person start earning money?",
+    "options": [
+     "before 14",
+     "14 to 16",
+     "17 to 19",
+     "20 or later"
+    ],
+    "answer": "before 14"
+   },
+   {
+    "id": "school",
+    "type": "childhood",
+    "question": "What kind of school did this person attend?",
+    "options": [
+     "Suburban Public School",
+     "Small Religious School",
+     "Underfunded Urban School",
+     "Elite Private School",
+     "Rural Consolidated School"
+    ],
+    "answer": "Underfunded Urban School"
+   },
+   {
+    "id": "parent",
+    "type": "childhood",
+    "question": "Which of these describes one of this person's parents?",
+    "options": [
+     "The Provider",
+     "The Anxious Protector",
+     "The Golden-Child Maker",
+     "The Absent One",
+     "The Friend",
+     "The Immigrant Striver",
+     "The Warm Constant",
+     "The Storm"
+    ],
+    "answer": "The Anxious Protector",
+    "accept": [
+     "The Anxious Protector",
+     "The Golden-Child Maker"
+    ]
+   },
+   {
+    "id": "ev_move",
+    "type": "childhood",
+    "question": "Did this person go through a move that changed everything?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "yes"
+   },
+   {
+    "id": "ev_translator",
+    "type": "childhood",
+    "question": "Did this person translate for their family as a child?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_responsibility",
+    "type": "childhood",
+    "question": "Did this person carry adult responsibility early?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_money",
+    "type": "childhood",
+    "question": "Did the family's money go away during this person's childhood?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   }
+  ]
+ },
+ {
+  "id": "synthetic-013",
+  "synthetic": true,
+  "childhood": {
+   "parents": [
+    "parent-the-anxious-protector",
+    "parent-the-golden-child-maker"
+   ],
+   "school": "school-underfunded-urban",
+   "events": [
+    "event-the-comparison",
+    "event-one-adult-saw-you",
+    "event-the-long-summer-alone",
+    "event-the-rupture"
+   ]
+  },
+  "facts": [
+   {
+    "id": "fear",
+    "type": "fear",
+    "question": "What is this person most afraid of?",
+    "options": [
+     "being left",
+     "failing in public",
+     "being a burden",
+     "losing control"
+    ],
+    "answer": "failing in public"
+   },
+   {
+    "id": "stress",
+    "type": "stress",
+    "question": "Under stress, what does this person do first?",
+    "options": [
+     "go quiet and withdraw",
+     "work harder",
+     "take care of everyone else",
+     "pick a fight"
+    ],
+    "answer": "go quiet and withdraw"
+   },
+   {
+    "id": "work",
+    "type": "preference",
+    "question": "Where does this person do their best work?",
+    "options": [
+     "alone with the problem",
+     "a small trusted crew",
+     "in front of a crowd",
+     "inside a clear structure"
+    ],
+    "answer": "inside a clear structure"
+   },
+   {
+    "id": "praise",
+    "type": "preference",
+    "question": "How does this person want to be recognized?",
+    "options": [
+     "privately, one on one",
+     "publicly",
+     "by results, not words",
+     "praise makes them uneasy"
+    ],
+    "answer": "publicly"
+   },
+   {
+    "id": "birth_order",
+    "type": "fact",
+    "question": "What was this person's birth order?",
+    "options": [
+     "oldest",
+     "middle",
+     "youngest",
+     "only"
+    ],
+    "answer": "oldest"
+   },
+   {
+    "id": "languages",
+    "type": "fact",
+    "question": "How many languages were spoken at home?",
+    "options": [
+     "one",
+     "two",
+     "three or more"
+    ],
+    "answer": "two"
+   },
+   {
+    "id": "moves",
+    "type": "fact",
+    "question": "How often did this person move before 12?",
+    "options": [
+     "never moved",
+     "moved once",
+     "moved two or three times",
+     "moved four or more times"
+    ],
+    "answer": "never moved"
+   },
+   {
+    "id": "first_job",
+    "type": "fact",
+    "question": "When did this person start earning money?",
+    "options": [
+     "before 14",
+     "14 to 16",
+     "17 to 19",
+     "20 or later"
+    ],
+    "answer": "before 14"
+   },
+   {
+    "id": "school",
+    "type": "childhood",
+    "question": "What kind of school did this person attend?",
+    "options": [
+     "Suburban Public School",
+     "Small Religious School",
+     "Underfunded Urban School",
+     "Elite Private School",
+     "Rural Consolidated School"
+    ],
+    "answer": "Underfunded Urban School"
+   },
+   {
+    "id": "parent",
+    "type": "childhood",
+    "question": "Which of these describes one of this person's parents?",
+    "options": [
+     "The Provider",
+     "The Anxious Protector",
+     "The Golden-Child Maker",
+     "The Absent One",
+     "The Friend",
+     "The Immigrant Striver",
+     "The Warm Constant",
+     "The Storm"
+    ],
+    "answer": "The Anxious Protector",
+    "accept": [
+     "The Anxious Protector",
+     "The Golden-Child Maker"
+    ]
+   },
+   {
+    "id": "ev_move",
+    "type": "childhood",
+    "question": "Did this person go through a move that changed everything?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_translator",
+    "type": "childhood",
+    "question": "Did this person translate for their family as a child?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_responsibility",
+    "type": "childhood",
+    "question": "Did this person carry adult responsibility early?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_money",
+    "type": "childhood",
+    "question": "Did the family's money go away during this person's childhood?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   }
+  ]
+ },
+ {
+  "id": "synthetic-014",
+  "synthetic": true,
+  "childhood": {
+   "parents": [
+    "parent-the-immigrant-striver",
+    "parent-the-provider"
+   ],
+   "school": "school-elite-private",
+   "events": [
+    "event-the-secret",
+    "event-praise-for-one-trait",
+    "event-caught-and-forgiven",
+    "event-the-illness",
+    "event-money-went-away"
+   ]
+  },
+  "facts": [
+   {
+    "id": "fear",
+    "type": "fear",
+    "question": "What is this person most afraid of?",
+    "options": [
+     "being left",
+     "failing in public",
+     "being a burden",
+     "losing control"
+    ],
+    "answer": "being a burden"
+   },
+   {
+    "id": "stress",
+    "type": "stress",
+    "question": "Under stress, what does this person do first?",
+    "options": [
+     "go quiet and withdraw",
+     "work harder",
+     "take care of everyone else",
+     "pick a fight"
+    ],
+    "answer": "work harder"
+   },
+   {
+    "id": "work",
+    "type": "preference",
+    "question": "Where does this person do their best work?",
+    "options": [
+     "alone with the problem",
+     "a small trusted crew",
+     "in front of a crowd",
+     "inside a clear structure"
+    ],
+    "answer": "in front of a crowd"
+   },
+   {
+    "id": "praise",
+    "type": "preference",
+    "question": "How does this person want to be recognized?",
+    "options": [
+     "privately, one on one",
+     "publicly",
+     "by results, not words",
+     "praise makes them uneasy"
+    ],
+    "answer": "privately, one on one"
+   },
+   {
+    "id": "birth_order",
+    "type": "fact",
+    "question": "What was this person's birth order?",
+    "options": [
+     "oldest",
+     "middle",
+     "youngest",
+     "only"
+    ],
+    "answer": "oldest"
+   },
+   {
+    "id": "languages",
+    "type": "fact",
+    "question": "How many languages were spoken at home?",
+    "options": [
+     "one",
+     "two",
+     "three or more"
+    ],
+    "answer": "one"
+   },
+   {
+    "id": "moves",
+    "type": "fact",
+    "question": "How often did this person move before 12?",
+    "options": [
+     "never moved",
+     "moved once",
+     "moved two or three times",
+     "moved four or more times"
+    ],
+    "answer": "moved once"
+   },
+   {
+    "id": "first_job",
+    "type": "fact",
+    "question": "When did this person start earning money?",
+    "options": [
+     "before 14",
+     "14 to 16",
+     "17 to 19",
+     "20 or later"
+    ],
+    "answer": "17 to 19"
+   },
+   {
+    "id": "school",
+    "type": "childhood",
+    "question": "What kind of school did this person attend?",
+    "options": [
+     "Suburban Public School",
+     "Small Religious School",
+     "Underfunded Urban School",
+     "Elite Private School",
+     "Rural Consolidated School"
+    ],
+    "answer": "Elite Private School"
+   },
+   {
+    "id": "parent",
+    "type": "childhood",
+    "question": "Which of these describes one of this person's parents?",
+    "options": [
+     "The Provider",
+     "The Anxious Protector",
+     "The Golden-Child Maker",
+     "The Absent One",
+     "The Friend",
+     "The Immigrant Striver",
+     "The Warm Constant",
+     "The Storm"
+    ],
+    "answer": "The Immigrant Striver",
+    "accept": [
+     "The Immigrant Striver",
+     "The Provider"
+    ]
+   },
+   {
+    "id": "ev_move",
+    "type": "childhood",
+    "question": "Did this person go through a move that changed everything?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_translator",
+    "type": "childhood",
+    "question": "Did this person translate for their family as a child?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_responsibility",
+    "type": "childhood",
+    "question": "Did this person carry adult responsibility early?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_money",
+    "type": "childhood",
+    "question": "Did the family's money go away during this person's childhood?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "yes"
+   }
+  ]
+ },
+ {
+  "id": "synthetic-015",
+  "synthetic": true,
+  "childhood": {
+   "parents": [
+    "parent-the-absent-one",
+    "parent-the-golden-child-maker"
+   ],
+   "school": "school-suburban-public",
+   "events": [
+    "event-the-long-summer-alone",
+    "event-the-first-no",
+    "event-the-friend-who-left"
+   ]
+  },
+  "facts": [
+   {
+    "id": "fear",
+    "type": "fear",
+    "question": "What is this person most afraid of?",
+    "options": [
+     "being left",
+     "failing in public",
+     "being a burden",
+     "losing control"
+    ],
+    "answer": "being a burden"
+   },
+   {
+    "id": "stress",
+    "type": "stress",
+    "question": "Under stress, what does this person do first?",
+    "options": [
+     "go quiet and withdraw",
+     "work harder",
+     "take care of everyone else",
+     "pick a fight"
+    ],
+    "answer": "go quiet and withdraw"
+   },
+   {
+    "id": "work",
+    "type": "preference",
+    "question": "Where does this person do their best work?",
+    "options": [
+     "alone with the problem",
+     "a small trusted crew",
+     "in front of a crowd",
+     "inside a clear structure"
+    ],
+    "answer": "alone with the problem"
+   },
+   {
+    "id": "praise",
+    "type": "preference",
+    "question": "How does this person want to be recognized?",
+    "options": [
+     "privately, one on one",
+     "publicly",
+     "by results, not words",
+     "praise makes them uneasy"
+    ],
+    "answer": "publicly"
+   },
+   {
+    "id": "birth_order",
+    "type": "fact",
+    "question": "What was this person's birth order?",
+    "options": [
+     "oldest",
+     "middle",
+     "youngest",
+     "only"
+    ],
+    "answer": "youngest"
+   },
+   {
+    "id": "languages",
+    "type": "fact",
+    "question": "How many languages were spoken at home?",
+    "options": [
+     "one",
+     "two",
+     "three or more"
+    ],
+    "answer": "three or more"
+   },
+   {
+    "id": "moves",
+    "type": "fact",
+    "question": "How often did this person move before 12?",
+    "options": [
+     "never moved",
+     "moved once",
+     "moved two or three times",
+     "moved four or more times"
+    ],
+    "answer": "never moved"
+   },
+   {
+    "id": "first_job",
+    "type": "fact",
+    "question": "When did this person start earning money?",
+    "options": [
+     "before 14",
+     "14 to 16",
+     "17 to 19",
+     "20 or later"
+    ],
+    "answer": "before 14"
+   },
+   {
+    "id": "school",
+    "type": "childhood",
+    "question": "What kind of school did this person attend?",
+    "options": [
+     "Suburban Public School",
+     "Small Religious School",
+     "Underfunded Urban School",
+     "Elite Private School",
+     "Rural Consolidated School"
+    ],
+    "answer": "Suburban Public School"
+   },
+   {
+    "id": "parent",
+    "type": "childhood",
+    "question": "Which of these describes one of this person's parents?",
+    "options": [
+     "The Provider",
+     "The Anxious Protector",
+     "The Golden-Child Maker",
+     "The Absent One",
+     "The Friend",
+     "The Immigrant Striver",
+     "The Warm Constant",
+     "The Storm"
+    ],
+    "answer": "The Absent One",
+    "accept": [
+     "The Absent One",
+     "The Golden-Child Maker"
+    ]
+   },
+   {
+    "id": "ev_move",
+    "type": "childhood",
+    "question": "Did this person go through a move that changed everything?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_translator",
+    "type": "childhood",
+    "question": "Did this person translate for their family as a child?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_responsibility",
+    "type": "childhood",
+    "question": "Did this person carry adult responsibility early?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_money",
+    "type": "childhood",
+    "question": "Did the family's money go away during this person's childhood?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   }
+  ]
+ },
+ {
+  "id": "synthetic-016",
+  "synthetic": true,
+  "childhood": {
+   "parents": [
+    "parent-the-provider",
+    "parent-the-storm"
+   ],
+   "school": "school-small-religious",
+   "events": [
+    "event-the-first-no",
+    "event-the-rupture",
+    "event-caught-and-forgiven"
+   ]
+  },
+  "facts": [
+   {
+    "id": "fear",
+    "type": "fear",
+    "question": "What is this person most afraid of?",
+    "options": [
+     "being left",
+     "failing in public",
+     "being a burden",
+     "losing control"
+    ],
+    "answer": "being a burden"
+   },
+   {
+    "id": "stress",
+    "type": "stress",
+    "question": "Under stress, what does this person do first?",
+    "options": [
+     "go quiet and withdraw",
+     "work harder",
+     "take care of everyone else",
+     "pick a fight"
+    ],
+    "answer": "pick a fight"
+   },
+   {
+    "id": "work",
+    "type": "preference",
+    "question": "Where does this person do their best work?",
+    "options": [
+     "alone with the problem",
+     "a small trusted crew",
+     "in front of a crowd",
+     "inside a clear structure"
+    ],
+    "answer": "a small trusted crew"
+   },
+   {
+    "id": "praise",
+    "type": "preference",
+    "question": "How does this person want to be recognized?",
+    "options": [
+     "privately, one on one",
+     "publicly",
+     "by results, not words",
+     "praise makes them uneasy"
+    ],
+    "answer": "by results, not words"
+   },
+   {
+    "id": "birth_order",
+    "type": "fact",
+    "question": "What was this person's birth order?",
+    "options": [
+     "oldest",
+     "middle",
+     "youngest",
+     "only"
+    ],
+    "answer": "only"
+   },
+   {
+    "id": "languages",
+    "type": "fact",
+    "question": "How many languages were spoken at home?",
+    "options": [
+     "one",
+     "two",
+     "three or more"
+    ],
+    "answer": "one"
+   },
+   {
+    "id": "moves",
+    "type": "fact",
+    "question": "How often did this person move before 12?",
+    "options": [
+     "never moved",
+     "moved once",
+     "moved two or three times",
+     "moved four or more times"
+    ],
+    "answer": "moved four or more times"
+   },
+   {
+    "id": "first_job",
+    "type": "fact",
+    "question": "When did this person start earning money?",
+    "options": [
+     "before 14",
+     "14 to 16",
+     "17 to 19",
+     "20 or later"
+    ],
+    "answer": "17 to 19"
+   },
+   {
+    "id": "school",
+    "type": "childhood",
+    "question": "What kind of school did this person attend?",
+    "options": [
+     "Suburban Public School",
+     "Small Religious School",
+     "Underfunded Urban School",
+     "Elite Private School",
+     "Rural Consolidated School"
+    ],
+    "answer": "Small Religious School"
+   },
+   {
+    "id": "parent",
+    "type": "childhood",
+    "question": "Which of these describes one of this person's parents?",
+    "options": [
+     "The Provider",
+     "The Anxious Protector",
+     "The Golden-Child Maker",
+     "The Absent One",
+     "The Friend",
+     "The Immigrant Striver",
+     "The Warm Constant",
+     "The Storm"
+    ],
+    "answer": "The Provider",
+    "accept": [
+     "The Provider",
+     "The Storm"
+    ]
+   },
+   {
+    "id": "ev_move",
+    "type": "childhood",
+    "question": "Did this person go through a move that changed everything?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_translator",
+    "type": "childhood",
+    "question": "Did this person translate for their family as a child?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_responsibility",
+    "type": "childhood",
+    "question": "Did this person carry adult responsibility early?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_money",
+    "type": "childhood",
+    "question": "Did the family's money go away during this person's childhood?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   }
+  ]
+ },
+ {
+  "id": "synthetic-017",
+  "synthetic": true,
+  "childhood": {
+   "parents": [
+    "parent-the-anxious-protector",
+    "parent-the-provider"
+   ],
+   "school": "school-elite-private",
+   "events": [
+    "event-the-illness",
+    "event-early-responsibility",
+    "event-money-went-away",
+    "event-one-adult-saw-you"
+   ]
+  },
+  "facts": [
+   {
+    "id": "fear",
+    "type": "fear",
+    "question": "What is this person most afraid of?",
+    "options": [
+     "being left",
+     "failing in public",
+     "being a burden",
+     "losing control"
+    ],
+    "answer": "losing control"
+   },
+   {
+    "id": "stress",
+    "type": "stress",
+    "question": "Under stress, what does this person do first?",
+    "options": [
+     "go quiet and withdraw",
+     "work harder",
+     "take care of everyone else",
+     "pick a fight"
+    ],
+    "answer": "work harder"
+   },
+   {
+    "id": "work",
+    "type": "preference",
+    "question": "Where does this person do their best work?",
+    "options": [
+     "alone with the problem",
+     "a small trusted crew",
+     "in front of a crowd",
+     "inside a clear structure"
+    ],
+    "answer": "inside a clear structure"
+   },
+   {
+    "id": "praise",
+    "type": "preference",
+    "question": "How does this person want to be recognized?",
+    "options": [
+     "privately, one on one",
+     "publicly",
+     "by results, not words",
+     "praise makes them uneasy"
+    ],
+    "answer": "by results, not words"
+   },
+   {
+    "id": "birth_order",
+    "type": "fact",
+    "question": "What was this person's birth order?",
+    "options": [
+     "oldest",
+     "middle",
+     "youngest",
+     "only"
+    ],
+    "answer": "oldest"
+   },
+   {
+    "id": "languages",
+    "type": "fact",
+    "question": "How many languages were spoken at home?",
+    "options": [
+     "one",
+     "two",
+     "three or more"
+    ],
+    "answer": "one"
+   },
+   {
+    "id": "moves",
+    "type": "fact",
+    "question": "How often did this person move before 12?",
+    "options": [
+     "never moved",
+     "moved once",
+     "moved two or three times",
+     "moved four or more times"
+    ],
+    "answer": "never moved"
+   },
+   {
+    "id": "first_job",
+    "type": "fact",
+    "question": "When did this person start earning money?",
+    "options": [
+     "before 14",
+     "14 to 16",
+     "17 to 19",
+     "20 or later"
+    ],
+    "answer": "17 to 19"
+   },
+   {
+    "id": "school",
+    "type": "childhood",
+    "question": "What kind of school did this person attend?",
+    "options": [
+     "Suburban Public School",
+     "Small Religious School",
+     "Underfunded Urban School",
+     "Elite Private School",
+     "Rural Consolidated School"
+    ],
+    "answer": "Elite Private School"
+   },
+   {
+    "id": "parent",
+    "type": "childhood",
+    "question": "Which of these describes one of this person's parents?",
+    "options": [
+     "The Provider",
+     "The Anxious Protector",
+     "The Golden-Child Maker",
+     "The Absent One",
+     "The Friend",
+     "The Immigrant Striver",
+     "The Warm Constant",
+     "The Storm"
+    ],
+    "answer": "The Anxious Protector",
+    "accept": [
+     "The Anxious Protector",
+     "The Provider"
+    ]
+   },
+   {
+    "id": "ev_move",
+    "type": "childhood",
+    "question": "Did this person go through a move that changed everything?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_translator",
+    "type": "childhood",
+    "question": "Did this person translate for their family as a child?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_responsibility",
+    "type": "childhood",
+    "question": "Did this person carry adult responsibility early?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "yes"
+   },
+   {
+    "id": "ev_money",
+    "type": "childhood",
+    "question": "Did the family's money go away during this person's childhood?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "yes"
+   }
+  ]
+ },
+ {
+  "id": "synthetic-018",
+  "synthetic": true,
+  "childhood": {
+   "parents": [
+    "parent-the-anxious-protector",
+    "parent-the-golden-child-maker"
+   ],
+   "school": "school-suburban-public",
+   "events": [
+    "event-the-grandparent",
+    "event-the-win",
+    "event-praise-for-one-trait"
+   ]
+  },
+  "facts": [
+   {
+    "id": "fear",
+    "type": "fear",
+    "question": "What is this person most afraid of?",
+    "options": [
+     "being left",
+     "failing in public",
+     "being a burden",
+     "losing control"
+    ],
+    "answer": "losing control"
+   },
+   {
+    "id": "stress",
+    "type": "stress",
+    "question": "Under stress, what does this person do first?",
+    "options": [
+     "go quiet and withdraw",
+     "work harder",
+     "take care of everyone else",
+     "pick a fight"
+    ],
+    "answer": "go quiet and withdraw"
+   },
+   {
+    "id": "work",
+    "type": "preference",
+    "question": "Where does this person do their best work?",
+    "options": [
+     "alone with the problem",
+     "a small trusted crew",
+     "in front of a crowd",
+     "inside a clear structure"
+    ],
+    "answer": "inside a clear structure"
+   },
+   {
+    "id": "praise",
+    "type": "preference",
+    "question": "How does this person want to be recognized?",
+    "options": [
+     "privately, one on one",
+     "publicly",
+     "by results, not words",
+     "praise makes them uneasy"
+    ],
+    "answer": "publicly"
+   },
+   {
+    "id": "birth_order",
+    "type": "fact",
+    "question": "What was this person's birth order?",
+    "options": [
+     "oldest",
+     "middle",
+     "youngest",
+     "only"
+    ],
+    "answer": "only"
+   },
+   {
+    "id": "languages",
+    "type": "fact",
+    "question": "How many languages were spoken at home?",
+    "options": [
+     "one",
+     "two",
+     "three or more"
+    ],
+    "answer": "two"
+   },
+   {
+    "id": "moves",
+    "type": "fact",
+    "question": "How often did this person move before 12?",
+    "options": [
+     "never moved",
+     "moved once",
+     "moved two or three times",
+     "moved four or more times"
+    ],
+    "answer": "moved once"
+   },
+   {
+    "id": "first_job",
+    "type": "fact",
+    "question": "When did this person start earning money?",
+    "options": [
+     "before 14",
+     "14 to 16",
+     "17 to 19",
+     "20 or later"
+    ],
+    "answer": "14 to 16"
+   },
+   {
+    "id": "school",
+    "type": "childhood",
+    "question": "What kind of school did this person attend?",
+    "options": [
+     "Suburban Public School",
+     "Small Religious School",
+     "Underfunded Urban School",
+     "Elite Private School",
+     "Rural Consolidated School"
+    ],
+    "answer": "Suburban Public School"
+   },
+   {
+    "id": "parent",
+    "type": "childhood",
+    "question": "Which of these describes one of this person's parents?",
+    "options": [
+     "The Provider",
+     "The Anxious Protector",
+     "The Golden-Child Maker",
+     "The Absent One",
+     "The Friend",
+     "The Immigrant Striver",
+     "The Warm Constant",
+     "The Storm"
+    ],
+    "answer": "The Anxious Protector",
+    "accept": [
+     "The Anxious Protector",
+     "The Golden-Child Maker"
+    ]
+   },
+   {
+    "id": "ev_move",
+    "type": "childhood",
+    "question": "Did this person go through a move that changed everything?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_translator",
+    "type": "childhood",
+    "question": "Did this person translate for their family as a child?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_responsibility",
+    "type": "childhood",
+    "question": "Did this person carry adult responsibility early?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_money",
+    "type": "childhood",
+    "question": "Did the family's money go away during this person's childhood?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   }
+  ]
+ },
+ {
+  "id": "synthetic-019",
+  "synthetic": true,
+  "childhood": {
+   "parents": [
+    "parent-the-warm-constant",
+    "parent-the-absent-one"
+   ],
+   "school": "school-small-religious",
+   "events": [
+    "event-being-needed",
+    "event-caught-and-forgiven",
+    "event-the-move",
+    "event-the-first-no",
+    "event-money-went-away"
+   ]
+  },
+  "facts": [
+   {
+    "id": "fear",
+    "type": "fear",
+    "question": "What is this person most afraid of?",
+    "options": [
+     "being left",
+     "failing in public",
+     "being a burden",
+     "losing control"
+    ],
+    "answer": "being left"
+   },
+   {
+    "id": "stress",
+    "type": "stress",
+    "question": "Under stress, what does this person do first?",
+    "options": [
+     "go quiet and withdraw",
+     "work harder",
+     "take care of everyone else",
+     "pick a fight"
+    ],
+    "answer": "work harder"
+   },
+   {
+    "id": "work",
+    "type": "preference",
+    "question": "Where does this person do their best work?",
+    "options": [
+     "alone with the problem",
+     "a small trusted crew",
+     "in front of a crowd",
+     "inside a clear structure"
+    ],
+    "answer": "a small trusted crew"
+   },
+   {
+    "id": "praise",
+    "type": "preference",
+    "question": "How does this person want to be recognized?",
+    "options": [
+     "privately, one on one",
+     "publicly",
+     "by results, not words",
+     "praise makes them uneasy"
+    ],
+    "answer": "privately, one on one"
+   },
+   {
+    "id": "birth_order",
+    "type": "fact",
+    "question": "What was this person's birth order?",
+    "options": [
+     "oldest",
+     "middle",
+     "youngest",
+     "only"
+    ],
+    "answer": "youngest"
+   },
+   {
+    "id": "languages",
+    "type": "fact",
+    "question": "How many languages were spoken at home?",
+    "options": [
+     "one",
+     "two",
+     "three or more"
+    ],
+    "answer": "one"
+   },
+   {
+    "id": "moves",
+    "type": "fact",
+    "question": "How often did this person move before 12?",
+    "options": [
+     "never moved",
+     "moved once",
+     "moved two or three times",
+     "moved four or more times"
+    ],
+    "answer": "moved two or three times"
+   },
+   {
+    "id": "first_job",
+    "type": "fact",
+    "question": "When did this person start earning money?",
+    "options": [
+     "before 14",
+     "14 to 16",
+     "17 to 19",
+     "20 or later"
+    ],
+    "answer": "14 to 16"
+   },
+   {
+    "id": "school",
+    "type": "childhood",
+    "question": "What kind of school did this person attend?",
+    "options": [
+     "Suburban Public School",
+     "Small Religious School",
+     "Underfunded Urban School",
+     "Elite Private School",
+     "Rural Consolidated School"
+    ],
+    "answer": "Small Religious School"
+   },
+   {
+    "id": "parent",
+    "type": "childhood",
+    "question": "Which of these describes one of this person's parents?",
+    "options": [
+     "The Provider",
+     "The Anxious Protector",
+     "The Golden-Child Maker",
+     "The Absent One",
+     "The Friend",
+     "The Immigrant Striver",
+     "The Warm Constant",
+     "The Storm"
+    ],
+    "answer": "The Warm Constant",
+    "accept": [
+     "The Warm Constant",
+     "The Absent One"
+    ]
+   },
+   {
+    "id": "ev_move",
+    "type": "childhood",
+    "question": "Did this person go through a move that changed everything?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "yes"
+   },
+   {
+    "id": "ev_translator",
+    "type": "childhood",
+    "question": "Did this person translate for their family as a child?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_responsibility",
+    "type": "childhood",
+    "question": "Did this person carry adult responsibility early?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_money",
+    "type": "childhood",
+    "question": "Did the family's money go away during this person's childhood?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "yes"
+   }
+  ]
+ },
+ {
+  "id": "synthetic-020",
+  "synthetic": true,
+  "childhood": {
+   "parents": [
+    "parent-the-storm",
+    "parent-the-friend"
+   ],
+   "school": "school-rural-consolidated",
+   "events": [
+    "event-the-comparison",
+    "event-first-thing-you-loved-alone",
+    "event-the-grandparent"
+   ]
+  },
+  "facts": [
+   {
+    "id": "fear",
+    "type": "fear",
+    "question": "What is this person most afraid of?",
+    "options": [
+     "being left",
+     "failing in public",
+     "being a burden",
+     "losing control"
+    ],
+    "answer": "being a burden"
+   },
+   {
+    "id": "stress",
+    "type": "stress",
+    "question": "Under stress, what does this person do first?",
+    "options": [
+     "go quiet and withdraw",
+     "work harder",
+     "take care of everyone else",
+     "pick a fight"
+    ],
+    "answer": "take care of everyone else"
+   },
+   {
+    "id": "work",
+    "type": "preference",
+    "question": "Where does this person do their best work?",
+    "options": [
+     "alone with the problem",
+     "a small trusted crew",
+     "in front of a crowd",
+     "inside a clear structure"
+    ],
+    "answer": "alone with the problem"
+   },
+   {
+    "id": "praise",
+    "type": "preference",
+    "question": "How does this person want to be recognized?",
+    "options": [
+     "privately, one on one",
+     "publicly",
+     "by results, not words",
+     "praise makes them uneasy"
+    ],
+    "answer": "by results, not words"
+   },
+   {
+    "id": "birth_order",
+    "type": "fact",
+    "question": "What was this person's birth order?",
+    "options": [
+     "oldest",
+     "middle",
+     "youngest",
+     "only"
+    ],
+    "answer": "oldest"
+   },
+   {
+    "id": "languages",
+    "type": "fact",
+    "question": "How many languages were spoken at home?",
+    "options": [
+     "one",
+     "two",
+     "three or more"
+    ],
+    "answer": "two"
+   },
+   {
+    "id": "moves",
+    "type": "fact",
+    "question": "How often did this person move before 12?",
+    "options": [
+     "never moved",
+     "moved once",
+     "moved two or three times",
+     "moved four or more times"
+    ],
+    "answer": "moved once"
+   },
+   {
+    "id": "first_job",
+    "type": "fact",
+    "question": "When did this person start earning money?",
+    "options": [
+     "before 14",
+     "14 to 16",
+     "17 to 19",
+     "20 or later"
+    ],
+    "answer": "17 to 19"
+   },
+   {
+    "id": "school",
+    "type": "childhood",
+    "question": "What kind of school did this person attend?",
+    "options": [
+     "Suburban Public School",
+     "Small Religious School",
+     "Underfunded Urban School",
+     "Elite Private School",
+     "Rural Consolidated School"
+    ],
+    "answer": "Rural Consolidated School"
+   },
+   {
+    "id": "parent",
+    "type": "childhood",
+    "question": "Which of these describes one of this person's parents?",
+    "options": [
+     "The Provider",
+     "The Anxious Protector",
+     "The Golden-Child Maker",
+     "The Absent One",
+     "The Friend",
+     "The Immigrant Striver",
+     "The Warm Constant",
+     "The Storm"
+    ],
+    "answer": "The Storm",
+    "accept": [
+     "The Storm",
+     "The Friend"
+    ]
+   },
+   {
+    "id": "ev_move",
+    "type": "childhood",
+    "question": "Did this person go through a move that changed everything?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_translator",
+    "type": "childhood",
+    "question": "Did this person translate for their family as a child?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_responsibility",
+    "type": "childhood",
+    "question": "Did this person carry adult responsibility early?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_money",
+    "type": "childhood",
+    "question": "Did the family's money go away during this person's childhood?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   }
+  ]
+ },
+ {
+  "id": "synthetic-021",
+  "synthetic": true,
+  "childhood": {
+   "parents": [
+    "parent-the-provider",
+    "parent-the-storm"
+   ],
+   "school": "school-underfunded-urban",
+   "events": [
+    "event-being-needed",
+    "event-early-responsibility",
+    "event-praise-for-one-trait",
+    "event-the-rupture"
+   ]
+  },
+  "facts": [
+   {
+    "id": "fear",
+    "type": "fear",
+    "question": "What is this person most afraid of?",
+    "options": [
+     "being left",
+     "failing in public",
+     "being a burden",
+     "losing control"
+    ],
+    "answer": "losing control"
+   },
+   {
+    "id": "stress",
+    "type": "stress",
+    "question": "Under stress, what does this person do first?",
+    "options": [
+     "go quiet and withdraw",
+     "work harder",
+     "take care of everyone else",
+     "pick a fight"
+    ],
+    "answer": "take care of everyone else"
+   },
+   {
+    "id": "work",
+    "type": "preference",
+    "question": "Where does this person do their best work?",
+    "options": [
+     "alone with the problem",
+     "a small trusted crew",
+     "in front of a crowd",
+     "inside a clear structure"
+    ],
+    "answer": "alone with the problem"
+   },
+   {
+    "id": "praise",
+    "type": "preference",
+    "question": "How does this person want to be recognized?",
+    "options": [
+     "privately, one on one",
+     "publicly",
+     "by results, not words",
+     "praise makes them uneasy"
+    ],
+    "answer": "by results, not words"
+   },
+   {
+    "id": "birth_order",
+    "type": "fact",
+    "question": "What was this person's birth order?",
+    "options": [
+     "oldest",
+     "middle",
+     "youngest",
+     "only"
+    ],
+    "answer": "oldest"
+   },
+   {
+    "id": "languages",
+    "type": "fact",
+    "question": "How many languages were spoken at home?",
+    "options": [
+     "one",
+     "two",
+     "three or more"
+    ],
+    "answer": "one"
+   },
+   {
+    "id": "moves",
+    "type": "fact",
+    "question": "How often did this person move before 12?",
+    "options": [
+     "never moved",
+     "moved once",
+     "moved two or three times",
+     "moved four or more times"
+    ],
+    "answer": "moved once"
+   },
+   {
+    "id": "first_job",
+    "type": "fact",
+    "question": "When did this person start earning money?",
+    "options": [
+     "before 14",
+     "14 to 16",
+     "17 to 19",
+     "20 or later"
+    ],
+    "answer": "before 14"
+   },
+   {
+    "id": "school",
+    "type": "childhood",
+    "question": "What kind of school did this person attend?",
+    "options": [
+     "Suburban Public School",
+     "Small Religious School",
+     "Underfunded Urban School",
+     "Elite Private School",
+     "Rural Consolidated School"
+    ],
+    "answer": "Underfunded Urban School"
+   },
+   {
+    "id": "parent",
+    "type": "childhood",
+    "question": "Which of these describes one of this person's parents?",
+    "options": [
+     "The Provider",
+     "The Anxious Protector",
+     "The Golden-Child Maker",
+     "The Absent One",
+     "The Friend",
+     "The Immigrant Striver",
+     "The Warm Constant",
+     "The Storm"
+    ],
+    "answer": "The Provider",
+    "accept": [
+     "The Provider",
+     "The Storm"
+    ]
+   },
+   {
+    "id": "ev_move",
+    "type": "childhood",
+    "question": "Did this person go through a move that changed everything?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_translator",
+    "type": "childhood",
+    "question": "Did this person translate for their family as a child?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_responsibility",
+    "type": "childhood",
+    "question": "Did this person carry adult responsibility early?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "yes"
+   },
+   {
+    "id": "ev_money",
+    "type": "childhood",
+    "question": "Did the family's money go away during this person's childhood?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   }
+  ]
+ },
+ {
+  "id": "synthetic-022",
+  "synthetic": true,
+  "childhood": {
+   "parents": [
+    "parent-the-friend",
+    "parent-the-anxious-protector"
+   ],
+   "school": "school-suburban-public",
+   "events": [
+    "event-praise-for-one-trait",
+    "event-the-long-summer-alone",
+    "event-the-secret",
+    "event-early-responsibility"
+   ]
+  },
+  "facts": [
+   {
+    "id": "fear",
+    "type": "fear",
+    "question": "What is this person most afraid of?",
+    "options": [
+     "being left",
+     "failing in public",
+     "being a burden",
+     "losing control"
+    ],
+    "answer": "being left"
+   },
+   {
+    "id": "stress",
+    "type": "stress",
+    "question": "Under stress, what does this person do first?",
+    "options": [
+     "go quiet and withdraw",
+     "work harder",
+     "take care of everyone else",
+     "pick a fight"
+    ],
+    "answer": "go quiet and withdraw"
+   },
+   {
+    "id": "work",
+    "type": "preference",
+    "question": "Where does this person do their best work?",
+    "options": [
+     "alone with the problem",
+     "a small trusted crew",
+     "in front of a crowd",
+     "inside a clear structure"
+    ],
+    "answer": "inside a clear structure"
+   },
+   {
+    "id": "praise",
+    "type": "preference",
+    "question": "How does this person want to be recognized?",
+    "options": [
+     "privately, one on one",
+     "publicly",
+     "by results, not words",
+     "praise makes them uneasy"
+    ],
+    "answer": "by results, not words"
+   },
+   {
+    "id": "birth_order",
+    "type": "fact",
+    "question": "What was this person's birth order?",
+    "options": [
+     "oldest",
+     "middle",
+     "youngest",
+     "only"
+    ],
+    "answer": "oldest"
+   },
+   {
+    "id": "languages",
+    "type": "fact",
+    "question": "How many languages were spoken at home?",
+    "options": [
+     "one",
+     "two",
+     "three or more"
+    ],
+    "answer": "three or more"
+   },
+   {
+    "id": "moves",
+    "type": "fact",
+    "question": "How often did this person move before 12?",
+    "options": [
+     "never moved",
+     "moved once",
+     "moved two or three times",
+     "moved four or more times"
+    ],
+    "answer": "moved two or three times"
+   },
+   {
+    "id": "first_job",
+    "type": "fact",
+    "question": "When did this person start earning money?",
+    "options": [
+     "before 14",
+     "14 to 16",
+     "17 to 19",
+     "20 or later"
+    ],
+    "answer": "before 14"
+   },
+   {
+    "id": "school",
+    "type": "childhood",
+    "question": "What kind of school did this person attend?",
+    "options": [
+     "Suburban Public School",
+     "Small Religious School",
+     "Underfunded Urban School",
+     "Elite Private School",
+     "Rural Consolidated School"
+    ],
+    "answer": "Suburban Public School"
+   },
+   {
+    "id": "parent",
+    "type": "childhood",
+    "question": "Which of these describes one of this person's parents?",
+    "options": [
+     "The Provider",
+     "The Anxious Protector",
+     "The Golden-Child Maker",
+     "The Absent One",
+     "The Friend",
+     "The Immigrant Striver",
+     "The Warm Constant",
+     "The Storm"
+    ],
+    "answer": "The Friend",
+    "accept": [
+     "The Friend",
+     "The Anxious Protector"
+    ]
+   },
+   {
+    "id": "ev_move",
+    "type": "childhood",
+    "question": "Did this person go through a move that changed everything?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_translator",
+    "type": "childhood",
+    "question": "Did this person translate for their family as a child?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_responsibility",
+    "type": "childhood",
+    "question": "Did this person carry adult responsibility early?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "yes"
+   },
+   {
+    "id": "ev_money",
+    "type": "childhood",
+    "question": "Did the family's money go away during this person's childhood?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   }
+  ]
+ },
+ {
+  "id": "synthetic-023",
+  "synthetic": true,
+  "childhood": {
+   "parents": [
+    "parent-the-golden-child-maker",
+    "parent-the-friend"
+   ],
+   "school": "school-elite-private",
+   "events": [
+    "event-caught-and-forgiven",
+    "event-being-needed",
+    "event-money-went-away",
+    "event-the-first-no"
+   ]
+  },
+  "facts": [
+   {
+    "id": "fear",
+    "type": "fear",
+    "question": "What is this person most afraid of?",
+    "options": [
+     "being left",
+     "failing in public",
+     "being a burden",
+     "losing control"
+    ],
+    "answer": "failing in public"
+   },
+   {
+    "id": "stress",
+    "type": "stress",
+    "question": "Under stress, what does this person do first?",
+    "options": [
+     "go quiet and withdraw",
+     "work harder",
+     "take care of everyone else",
+     "pick a fight"
+    ],
+    "answer": "take care of everyone else"
+   },
+   {
+    "id": "work",
+    "type": "preference",
+    "question": "Where does this person do their best work?",
+    "options": [
+     "alone with the problem",
+     "a small trusted crew",
+     "in front of a crowd",
+     "inside a clear structure"
+    ],
+    "answer": "alone with the problem"
+   },
+   {
+    "id": "praise",
+    "type": "preference",
+    "question": "How does this person want to be recognized?",
+    "options": [
+     "privately, one on one",
+     "publicly",
+     "by results, not words",
+     "praise makes them uneasy"
+    ],
+    "answer": "publicly"
+   },
+   {
+    "id": "birth_order",
+    "type": "fact",
+    "question": "What was this person's birth order?",
+    "options": [
+     "oldest",
+     "middle",
+     "youngest",
+     "only"
+    ],
+    "answer": "oldest"
+   },
+   {
+    "id": "languages",
+    "type": "fact",
+    "question": "How many languages were spoken at home?",
+    "options": [
+     "one",
+     "two",
+     "three or more"
+    ],
+    "answer": "one"
+   },
+   {
+    "id": "moves",
+    "type": "fact",
+    "question": "How often did this person move before 12?",
+    "options": [
+     "never moved",
+     "moved once",
+     "moved two or three times",
+     "moved four or more times"
+    ],
+    "answer": "never moved"
+   },
+   {
+    "id": "first_job",
+    "type": "fact",
+    "question": "When did this person start earning money?",
+    "options": [
+     "before 14",
+     "14 to 16",
+     "17 to 19",
+     "20 or later"
+    ],
+    "answer": "14 to 16"
+   },
+   {
+    "id": "school",
+    "type": "childhood",
+    "question": "What kind of school did this person attend?",
+    "options": [
+     "Suburban Public School",
+     "Small Religious School",
+     "Underfunded Urban School",
+     "Elite Private School",
+     "Rural Consolidated School"
+    ],
+    "answer": "Elite Private School"
+   },
+   {
+    "id": "parent",
+    "type": "childhood",
+    "question": "Which of these describes one of this person's parents?",
+    "options": [
+     "The Provider",
+     "The Anxious Protector",
+     "The Golden-Child Maker",
+     "The Absent One",
+     "The Friend",
+     "The Immigrant Striver",
+     "The Warm Constant",
+     "The Storm"
+    ],
+    "answer": "The Golden-Child Maker",
+    "accept": [
+     "The Golden-Child Maker",
+     "The Friend"
+    ]
+   },
+   {
+    "id": "ev_move",
+    "type": "childhood",
+    "question": "Did this person go through a move that changed everything?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_translator",
+    "type": "childhood",
+    "question": "Did this person translate for their family as a child?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_responsibility",
+    "type": "childhood",
+    "question": "Did this person carry adult responsibility early?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_money",
+    "type": "childhood",
+    "question": "Did the family's money go away during this person's childhood?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "yes"
+   }
+  ]
+ },
+ {
+  "id": "synthetic-024",
+  "synthetic": true,
+  "childhood": {
+   "parents": [
+    "parent-the-immigrant-striver",
+    "parent-the-anxious-protector"
+   ],
+   "school": "school-underfunded-urban",
+   "events": [
+    "event-being-needed",
+    "event-public-humiliation",
+    "event-the-illness",
+    "event-the-first-no"
+   ]
+  },
+  "facts": [
+   {
+    "id": "fear",
+    "type": "fear",
+    "question": "What is this person most afraid of?",
+    "options": [
+     "being left",
+     "failing in public",
+     "being a burden",
+     "losing control"
+    ],
+    "answer": "losing control"
+   },
+   {
+    "id": "stress",
+    "type": "stress",
+    "question": "Under stress, what does this person do first?",
+    "options": [
+     "go quiet and withdraw",
+     "work harder",
+     "take care of everyone else",
+     "pick a fight"
+    ],
+    "answer": "take care of everyone else"
+   },
+   {
+    "id": "work",
+    "type": "preference",
+    "question": "Where does this person do their best work?",
+    "options": [
+     "alone with the problem",
+     "a small trusted crew",
+     "in front of a crowd",
+     "inside a clear structure"
+    ],
+    "answer": "inside a clear structure"
+   },
+   {
+    "id": "praise",
+    "type": "preference",
+    "question": "How does this person want to be recognized?",
+    "options": [
+     "privately, one on one",
+     "publicly",
+     "by results, not words",
+     "praise makes them uneasy"
+    ],
+    "answer": "by results, not words"
+   },
+   {
+    "id": "birth_order",
+    "type": "fact",
+    "question": "What was this person's birth order?",
+    "options": [
+     "oldest",
+     "middle",
+     "youngest",
+     "only"
+    ],
+    "answer": "middle"
+   },
+   {
+    "id": "languages",
+    "type": "fact",
+    "question": "How many languages were spoken at home?",
+    "options": [
+     "one",
+     "two",
+     "three or more"
+    ],
+    "answer": "two"
+   },
+   {
+    "id": "moves",
+    "type": "fact",
+    "question": "How often did this person move before 12?",
+    "options": [
+     "never moved",
+     "moved once",
+     "moved two or three times",
+     "moved four or more times"
+    ],
+    "answer": "never moved"
+   },
+   {
+    "id": "first_job",
+    "type": "fact",
+    "question": "When did this person start earning money?",
+    "options": [
+     "before 14",
+     "14 to 16",
+     "17 to 19",
+     "20 or later"
+    ],
+    "answer": "before 14"
+   },
+   {
+    "id": "school",
+    "type": "childhood",
+    "question": "What kind of school did this person attend?",
+    "options": [
+     "Suburban Public School",
+     "Small Religious School",
+     "Underfunded Urban School",
+     "Elite Private School",
+     "Rural Consolidated School"
+    ],
+    "answer": "Underfunded Urban School"
+   },
+   {
+    "id": "parent",
+    "type": "childhood",
+    "question": "Which of these describes one of this person's parents?",
+    "options": [
+     "The Provider",
+     "The Anxious Protector",
+     "The Golden-Child Maker",
+     "The Absent One",
+     "The Friend",
+     "The Immigrant Striver",
+     "The Warm Constant",
+     "The Storm"
+    ],
+    "answer": "The Immigrant Striver",
+    "accept": [
+     "The Immigrant Striver",
+     "The Anxious Protector"
+    ]
+   },
+   {
+    "id": "ev_move",
+    "type": "childhood",
+    "question": "Did this person go through a move that changed everything?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_translator",
+    "type": "childhood",
+    "question": "Did this person translate for their family as a child?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_responsibility",
+    "type": "childhood",
+    "question": "Did this person carry adult responsibility early?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_money",
+    "type": "childhood",
+    "question": "Did the family's money go away during this person's childhood?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   }
+  ]
+ },
+ {
+  "id": "synthetic-025",
+  "synthetic": true,
+  "childhood": {
+   "parents": [
+    "parent-the-storm",
+    "parent-the-absent-one"
+   ],
+   "school": "school-rural-consolidated",
+   "events": [
+    "event-the-first-no",
+    "event-the-move",
+    "event-caught-and-forgiven"
+   ]
+  },
+  "facts": [
+   {
+    "id": "fear",
+    "type": "fear",
+    "question": "What is this person most afraid of?",
+    "options": [
+     "being left",
+     "failing in public",
+     "being a burden",
+     "losing control"
+    ],
+    "answer": "losing control"
+   },
+   {
+    "id": "stress",
+    "type": "stress",
+    "question": "Under stress, what does this person do first?",
+    "options": [
+     "go quiet and withdraw",
+     "work harder",
+     "take care of everyone else",
+     "pick a fight"
+    ],
+    "answer": "pick a fight"
+   },
+   {
+    "id": "work",
+    "type": "preference",
+    "question": "Where does this person do their best work?",
+    "options": [
+     "alone with the problem",
+     "a small trusted crew",
+     "in front of a crowd",
+     "inside a clear structure"
+    ],
+    "answer": "alone with the problem"
+   },
+   {
+    "id": "praise",
+    "type": "preference",
+    "question": "How does this person want to be recognized?",
+    "options": [
+     "privately, one on one",
+     "publicly",
+     "by results, not words",
+     "praise makes them uneasy"
+    ],
+    "answer": "praise makes them uneasy"
+   },
+   {
+    "id": "birth_order",
+    "type": "fact",
+    "question": "What was this person's birth order?",
+    "options": [
+     "oldest",
+     "middle",
+     "youngest",
+     "only"
+    ],
+    "answer": "middle"
+   },
+   {
+    "id": "languages",
+    "type": "fact",
+    "question": "How many languages were spoken at home?",
+    "options": [
+     "one",
+     "two",
+     "three or more"
+    ],
+    "answer": "one"
+   },
+   {
+    "id": "moves",
+    "type": "fact",
+    "question": "How often did this person move before 12?",
+    "options": [
+     "never moved",
+     "moved once",
+     "moved two or three times",
+     "moved four or more times"
+    ],
+    "answer": "moved two or three times"
+   },
+   {
+    "id": "first_job",
+    "type": "fact",
+    "question": "When did this person start earning money?",
+    "options": [
+     "before 14",
+     "14 to 16",
+     "17 to 19",
+     "20 or later"
+    ],
+    "answer": "17 to 19"
+   },
+   {
+    "id": "school",
+    "type": "childhood",
+    "question": "What kind of school did this person attend?",
+    "options": [
+     "Suburban Public School",
+     "Small Religious School",
+     "Underfunded Urban School",
+     "Elite Private School",
+     "Rural Consolidated School"
+    ],
+    "answer": "Rural Consolidated School"
+   },
+   {
+    "id": "parent",
+    "type": "childhood",
+    "question": "Which of these describes one of this person's parents?",
+    "options": [
+     "The Provider",
+     "The Anxious Protector",
+     "The Golden-Child Maker",
+     "The Absent One",
+     "The Friend",
+     "The Immigrant Striver",
+     "The Warm Constant",
+     "The Storm"
+    ],
+    "answer": "The Storm",
+    "accept": [
+     "The Storm",
+     "The Absent One"
+    ]
+   },
+   {
+    "id": "ev_move",
+    "type": "childhood",
+    "question": "Did this person go through a move that changed everything?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "yes"
+   },
+   {
+    "id": "ev_translator",
+    "type": "childhood",
+    "question": "Did this person translate for their family as a child?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_responsibility",
+    "type": "childhood",
+    "question": "Did this person carry adult responsibility early?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_money",
+    "type": "childhood",
+    "question": "Did the family's money go away during this person's childhood?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   }
+  ]
+ },
+ {
+  "id": "synthetic-026",
+  "synthetic": true,
+  "childhood": {
+   "parents": [
+    "parent-the-warm-constant",
+    "parent-the-golden-child-maker"
+   ],
+   "school": "school-suburban-public",
+   "events": [
+    "event-caught-and-forgiven",
+    "event-the-win",
+    "event-praise-for-one-trait",
+    "event-one-adult-saw-you"
+   ]
+  },
+  "facts": [
+   {
+    "id": "fear",
+    "type": "fear",
+    "question": "What is this person most afraid of?",
+    "options": [
+     "being left",
+     "failing in public",
+     "being a burden",
+     "losing control"
+    ],
+    "answer": "being left"
+   },
+   {
+    "id": "stress",
+    "type": "stress",
+    "question": "Under stress, what does this person do first?",
+    "options": [
+     "go quiet and withdraw",
+     "work harder",
+     "take care of everyone else",
+     "pick a fight"
+    ],
+    "answer": "go quiet and withdraw"
+   },
+   {
+    "id": "work",
+    "type": "preference",
+    "question": "Where does this person do their best work?",
+    "options": [
+     "alone with the problem",
+     "a small trusted crew",
+     "in front of a crowd",
+     "inside a clear structure"
+    ],
+    "answer": "inside a clear structure"
+   },
+   {
+    "id": "praise",
+    "type": "preference",
+    "question": "How does this person want to be recognized?",
+    "options": [
+     "privately, one on one",
+     "publicly",
+     "by results, not words",
+     "praise makes them uneasy"
+    ],
+    "answer": "privately, one on one"
+   },
+   {
+    "id": "birth_order",
+    "type": "fact",
+    "question": "What was this person's birth order?",
+    "options": [
+     "oldest",
+     "middle",
+     "youngest",
+     "only"
+    ],
+    "answer": "youngest"
+   },
+   {
+    "id": "languages",
+    "type": "fact",
+    "question": "How many languages were spoken at home?",
+    "options": [
+     "one",
+     "two",
+     "three or more"
+    ],
+    "answer": "one"
+   },
+   {
+    "id": "moves",
+    "type": "fact",
+    "question": "How often did this person move before 12?",
+    "options": [
+     "never moved",
+     "moved once",
+     "moved two or three times",
+     "moved four or more times"
+    ],
+    "answer": "never moved"
+   },
+   {
+    "id": "first_job",
+    "type": "fact",
+    "question": "When did this person start earning money?",
+    "options": [
+     "before 14",
+     "14 to 16",
+     "17 to 19",
+     "20 or later"
+    ],
+    "answer": "17 to 19"
+   },
+   {
+    "id": "school",
+    "type": "childhood",
+    "question": "What kind of school did this person attend?",
+    "options": [
+     "Suburban Public School",
+     "Small Religious School",
+     "Underfunded Urban School",
+     "Elite Private School",
+     "Rural Consolidated School"
+    ],
+    "answer": "Suburban Public School"
+   },
+   {
+    "id": "parent",
+    "type": "childhood",
+    "question": "Which of these describes one of this person's parents?",
+    "options": [
+     "The Provider",
+     "The Anxious Protector",
+     "The Golden-Child Maker",
+     "The Absent One",
+     "The Friend",
+     "The Immigrant Striver",
+     "The Warm Constant",
+     "The Storm"
+    ],
+    "answer": "The Warm Constant",
+    "accept": [
+     "The Warm Constant",
+     "The Golden-Child Maker"
+    ]
+   },
+   {
+    "id": "ev_move",
+    "type": "childhood",
+    "question": "Did this person go through a move that changed everything?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_translator",
+    "type": "childhood",
+    "question": "Did this person translate for their family as a child?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_responsibility",
+    "type": "childhood",
+    "question": "Did this person carry adult responsibility early?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_money",
+    "type": "childhood",
+    "question": "Did the family's money go away during this person's childhood?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   }
+  ]
+ },
+ {
+  "id": "synthetic-027",
+  "synthetic": true,
+  "childhood": {
+   "parents": [
+    "parent-the-friend",
+    "parent-the-provider"
+   ],
+   "school": "school-small-religious",
+   "events": [
+    "event-the-comparison",
+    "event-caught-and-forgiven",
+    "event-one-adult-saw-you",
+    "event-first-thing-you-loved-alone",
+    "event-praise-for-one-trait"
+   ]
+  },
+  "facts": [
+   {
+    "id": "fear",
+    "type": "fear",
+    "question": "What is this person most afraid of?",
+    "options": [
+     "being left",
+     "failing in public",
+     "being a burden",
+     "losing control"
+    ],
+    "answer": "being a burden"
+   },
+   {
+    "id": "stress",
+    "type": "stress",
+    "question": "Under stress, what does this person do first?",
+    "options": [
+     "go quiet and withdraw",
+     "work harder",
+     "take care of everyone else",
+     "pick a fight"
+    ],
+    "answer": "take care of everyone else"
+   },
+   {
+    "id": "work",
+    "type": "preference",
+    "question": "Where does this person do their best work?",
+    "options": [
+     "alone with the problem",
+     "a small trusted crew",
+     "in front of a crowd",
+     "inside a clear structure"
+    ],
+    "answer": "alone with the problem"
+   },
+   {
+    "id": "praise",
+    "type": "preference",
+    "question": "How does this person want to be recognized?",
+    "options": [
+     "privately, one on one",
+     "publicly",
+     "by results, not words",
+     "praise makes them uneasy"
+    ],
+    "answer": "by results, not words"
+   },
+   {
+    "id": "birth_order",
+    "type": "fact",
+    "question": "What was this person's birth order?",
+    "options": [
+     "oldest",
+     "middle",
+     "youngest",
+     "only"
+    ],
+    "answer": "oldest"
+   },
+   {
+    "id": "languages",
+    "type": "fact",
+    "question": "How many languages were spoken at home?",
+    "options": [
+     "one",
+     "two",
+     "three or more"
+    ],
+    "answer": "one"
+   },
+   {
+    "id": "moves",
+    "type": "fact",
+    "question": "How often did this person move before 12?",
+    "options": [
+     "never moved",
+     "moved once",
+     "moved two or three times",
+     "moved four or more times"
+    ],
+    "answer": "never moved"
+   },
+   {
+    "id": "first_job",
+    "type": "fact",
+    "question": "When did this person start earning money?",
+    "options": [
+     "before 14",
+     "14 to 16",
+     "17 to 19",
+     "20 or later"
+    ],
+    "answer": "before 14"
+   },
+   {
+    "id": "school",
+    "type": "childhood",
+    "question": "What kind of school did this person attend?",
+    "options": [
+     "Suburban Public School",
+     "Small Religious School",
+     "Underfunded Urban School",
+     "Elite Private School",
+     "Rural Consolidated School"
+    ],
+    "answer": "Small Religious School"
+   },
+   {
+    "id": "parent",
+    "type": "childhood",
+    "question": "Which of these describes one of this person's parents?",
+    "options": [
+     "The Provider",
+     "The Anxious Protector",
+     "The Golden-Child Maker",
+     "The Absent One",
+     "The Friend",
+     "The Immigrant Striver",
+     "The Warm Constant",
+     "The Storm"
+    ],
+    "answer": "The Friend",
+    "accept": [
+     "The Friend",
+     "The Provider"
+    ]
+   },
+   {
+    "id": "ev_move",
+    "type": "childhood",
+    "question": "Did this person go through a move that changed everything?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_translator",
+    "type": "childhood",
+    "question": "Did this person translate for their family as a child?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_responsibility",
+    "type": "childhood",
+    "question": "Did this person carry adult responsibility early?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_money",
+    "type": "childhood",
+    "question": "Did the family's money go away during this person's childhood?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   }
+  ]
+ },
+ {
+  "id": "synthetic-028",
+  "synthetic": true,
+  "childhood": {
+   "parents": [
+    "parent-the-storm",
+    "parent-the-golden-child-maker"
+   ],
+   "school": "school-rural-consolidated",
+   "events": [
+    "event-the-long-summer-alone",
+    "event-money-went-away",
+    "event-the-win"
+   ]
+  },
+  "facts": [
+   {
+    "id": "fear",
+    "type": "fear",
+    "question": "What is this person most afraid of?",
+    "options": [
+     "being left",
+     "failing in public",
+     "being a burden",
+     "losing control"
+    ],
+    "answer": "losing control"
+   },
+   {
+    "id": "stress",
+    "type": "stress",
+    "question": "Under stress, what does this person do first?",
+    "options": [
+     "go quiet and withdraw",
+     "work harder",
+     "take care of everyone else",
+     "pick a fight"
+    ],
+    "answer": "pick a fight"
+   },
+   {
+    "id": "work",
+    "type": "preference",
+    "question": "Where does this person do their best work?",
+    "options": [
+     "alone with the problem",
+     "a small trusted crew",
+     "in front of a crowd",
+     "inside a clear structure"
+    ],
+    "answer": "alone with the problem"
+   },
+   {
+    "id": "praise",
+    "type": "preference",
+    "question": "How does this person want to be recognized?",
+    "options": [
+     "privately, one on one",
+     "publicly",
+     "by results, not words",
+     "praise makes them uneasy"
+    ],
+    "answer": "publicly"
+   },
+   {
+    "id": "birth_order",
+    "type": "fact",
+    "question": "What was this person's birth order?",
+    "options": [
+     "oldest",
+     "middle",
+     "youngest",
+     "only"
+    ],
+    "answer": "youngest"
+   },
+   {
+    "id": "languages",
+    "type": "fact",
+    "question": "How many languages were spoken at home?",
+    "options": [
+     "one",
+     "two",
+     "three or more"
+    ],
+    "answer": "one"
+   },
+   {
+    "id": "moves",
+    "type": "fact",
+    "question": "How often did this person move before 12?",
+    "options": [
+     "never moved",
+     "moved once",
+     "moved two or three times",
+     "moved four or more times"
+    ],
+    "answer": "moved once"
+   },
+   {
+    "id": "first_job",
+    "type": "fact",
+    "question": "When did this person start earning money?",
+    "options": [
+     "before 14",
+     "14 to 16",
+     "17 to 19",
+     "20 or later"
+    ],
+    "answer": "17 to 19"
+   },
+   {
+    "id": "school",
+    "type": "childhood",
+    "question": "What kind of school did this person attend?",
+    "options": [
+     "Suburban Public School",
+     "Small Religious School",
+     "Underfunded Urban School",
+     "Elite Private School",
+     "Rural Consolidated School"
+    ],
+    "answer": "Rural Consolidated School"
+   },
+   {
+    "id": "parent",
+    "type": "childhood",
+    "question": "Which of these describes one of this person's parents?",
+    "options": [
+     "The Provider",
+     "The Anxious Protector",
+     "The Golden-Child Maker",
+     "The Absent One",
+     "The Friend",
+     "The Immigrant Striver",
+     "The Warm Constant",
+     "The Storm"
+    ],
+    "answer": "The Storm",
+    "accept": [
+     "The Storm",
+     "The Golden-Child Maker"
+    ]
+   },
+   {
+    "id": "ev_move",
+    "type": "childhood",
+    "question": "Did this person go through a move that changed everything?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_translator",
+    "type": "childhood",
+    "question": "Did this person translate for their family as a child?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_responsibility",
+    "type": "childhood",
+    "question": "Did this person carry adult responsibility early?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_money",
+    "type": "childhood",
+    "question": "Did the family's money go away during this person's childhood?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "yes"
+   }
+  ]
+ },
+ {
+  "id": "synthetic-029",
+  "synthetic": true,
+  "childhood": {
+   "parents": [
+    "parent-the-warm-constant",
+    "parent-the-golden-child-maker"
+   ],
+   "school": "school-elite-private",
+   "events": [
+    "event-the-illness",
+    "event-being-the-translator",
+    "event-the-secret"
+   ]
+  },
+  "facts": [
+   {
+    "id": "fear",
+    "type": "fear",
+    "question": "What is this person most afraid of?",
+    "options": [
+     "being left",
+     "failing in public",
+     "being a burden",
+     "losing control"
+    ],
+    "answer": "failing in public"
+   },
+   {
+    "id": "stress",
+    "type": "stress",
+    "question": "Under stress, what does this person do first?",
+    "options": [
+     "go quiet and withdraw",
+     "work harder",
+     "take care of everyone else",
+     "pick a fight"
+    ],
+    "answer": "take care of everyone else"
+   },
+   {
+    "id": "work",
+    "type": "preference",
+    "question": "Where does this person do their best work?",
+    "options": [
+     "alone with the problem",
+     "a small trusted crew",
+     "in front of a crowd",
+     "inside a clear structure"
+    ],
+    "answer": "in front of a crowd"
+   },
+   {
+    "id": "praise",
+    "type": "preference",
+    "question": "How does this person want to be recognized?",
+    "options": [
+     "privately, one on one",
+     "publicly",
+     "by results, not words",
+     "praise makes them uneasy"
+    ],
+    "answer": "by results, not words"
+   },
+   {
+    "id": "birth_order",
+    "type": "fact",
+    "question": "What was this person's birth order?",
+    "options": [
+     "oldest",
+     "middle",
+     "youngest",
+     "only"
+    ],
+    "answer": "middle"
+   },
+   {
+    "id": "languages",
+    "type": "fact",
+    "question": "How many languages were spoken at home?",
+    "options": [
+     "one",
+     "two",
+     "three or more"
+    ],
+    "answer": "two"
+   },
+   {
+    "id": "moves",
+    "type": "fact",
+    "question": "How often did this person move before 12?",
+    "options": [
+     "never moved",
+     "moved once",
+     "moved two or three times",
+     "moved four or more times"
+    ],
+    "answer": "moved two or three times"
+   },
+   {
+    "id": "first_job",
+    "type": "fact",
+    "question": "When did this person start earning money?",
+    "options": [
+     "before 14",
+     "14 to 16",
+     "17 to 19",
+     "20 or later"
+    ],
+    "answer": "17 to 19"
+   },
+   {
+    "id": "school",
+    "type": "childhood",
+    "question": "What kind of school did this person attend?",
+    "options": [
+     "Suburban Public School",
+     "Small Religious School",
+     "Underfunded Urban School",
+     "Elite Private School",
+     "Rural Consolidated School"
+    ],
+    "answer": "Elite Private School"
+   },
+   {
+    "id": "parent",
+    "type": "childhood",
+    "question": "Which of these describes one of this person's parents?",
+    "options": [
+     "The Provider",
+     "The Anxious Protector",
+     "The Golden-Child Maker",
+     "The Absent One",
+     "The Friend",
+     "The Immigrant Striver",
+     "The Warm Constant",
+     "The Storm"
+    ],
+    "answer": "The Warm Constant",
+    "accept": [
+     "The Warm Constant",
+     "The Golden-Child Maker"
+    ]
+   },
+   {
+    "id": "ev_move",
+    "type": "childhood",
+    "question": "Did this person go through a move that changed everything?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_translator",
+    "type": "childhood",
+    "question": "Did this person translate for their family as a child?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "yes"
+   },
+   {
+    "id": "ev_responsibility",
+    "type": "childhood",
+    "question": "Did this person carry adult responsibility early?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_money",
+    "type": "childhood",
+    "question": "Did the family's money go away during this person's childhood?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   }
+  ]
+ },
+ {
+  "id": "synthetic-030",
+  "synthetic": true,
+  "childhood": {
+   "parents": [
+    "parent-the-warm-constant",
+    "parent-the-anxious-protector"
+   ],
+   "school": "school-suburban-public",
+   "events": [
+    "event-the-first-no",
+    "event-early-responsibility",
+    "event-caught-and-shamed",
+    "event-the-illness"
+   ]
+  },
+  "facts": [
+   {
+    "id": "fear",
+    "type": "fear",
+    "question": "What is this person most afraid of?",
+    "options": [
+     "being left",
+     "failing in public",
+     "being a burden",
+     "losing control"
+    ],
+    "answer": "losing control"
+   },
+   {
+    "id": "stress",
+    "type": "stress",
+    "question": "Under stress, what does this person do first?",
+    "options": [
+     "go quiet and withdraw",
+     "work harder",
+     "take care of everyone else",
+     "pick a fight"
+    ],
+    "answer": "go quiet and withdraw"
+   },
+   {
+    "id": "work",
+    "type": "preference",
+    "question": "Where does this person do their best work?",
+    "options": [
+     "alone with the problem",
+     "a small trusted crew",
+     "in front of a crowd",
+     "inside a clear structure"
+    ],
+    "answer": "inside a clear structure"
+   },
+   {
+    "id": "praise",
+    "type": "preference",
+    "question": "How does this person want to be recognized?",
+    "options": [
+     "privately, one on one",
+     "publicly",
+     "by results, not words",
+     "praise makes them uneasy"
+    ],
+    "answer": "privately, one on one"
+   },
+   {
+    "id": "birth_order",
+    "type": "fact",
+    "question": "What was this person's birth order?",
+    "options": [
+     "oldest",
+     "middle",
+     "youngest",
+     "only"
+    ],
+    "answer": "oldest"
+   },
+   {
+    "id": "languages",
+    "type": "fact",
+    "question": "How many languages were spoken at home?",
+    "options": [
+     "one",
+     "two",
+     "three or more"
+    ],
+    "answer": "one"
+   },
+   {
+    "id": "moves",
+    "type": "fact",
+    "question": "How often did this person move before 12?",
+    "options": [
+     "never moved",
+     "moved once",
+     "moved two or three times",
+     "moved four or more times"
+    ],
+    "answer": "moved once"
+   },
+   {
+    "id": "first_job",
+    "type": "fact",
+    "question": "When did this person start earning money?",
+    "options": [
+     "before 14",
+     "14 to 16",
+     "17 to 19",
+     "20 or later"
+    ],
+    "answer": "before 14"
+   },
+   {
+    "id": "school",
+    "type": "childhood",
+    "question": "What kind of school did this person attend?",
+    "options": [
+     "Suburban Public School",
+     "Small Religious School",
+     "Underfunded Urban School",
+     "Elite Private School",
+     "Rural Consolidated School"
+    ],
+    "answer": "Suburban Public School"
+   },
+   {
+    "id": "parent",
+    "type": "childhood",
+    "question": "Which of these describes one of this person's parents?",
+    "options": [
+     "The Provider",
+     "The Anxious Protector",
+     "The Golden-Child Maker",
+     "The Absent One",
+     "The Friend",
+     "The Immigrant Striver",
+     "The Warm Constant",
+     "The Storm"
+    ],
+    "answer": "The Warm Constant",
+    "accept": [
+     "The Warm Constant",
+     "The Anxious Protector"
+    ]
+   },
+   {
+    "id": "ev_move",
+    "type": "childhood",
+    "question": "Did this person go through a move that changed everything?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_translator",
+    "type": "childhood",
+    "question": "Did this person translate for their family as a child?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_responsibility",
+    "type": "childhood",
+    "question": "Did this person carry adult responsibility early?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "yes"
+   },
+   {
+    "id": "ev_money",
+    "type": "childhood",
+    "question": "Did the family's money go away during this person's childhood?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   }
+  ]
+ },
+ {
+  "id": "synthetic-031",
+  "synthetic": true,
+  "childhood": {
+   "parents": [
+    "parent-the-warm-constant",
+    "parent-the-anxious-protector"
+   ],
+   "school": "school-elite-private",
+   "events": [
+    "event-caught-and-shamed",
+    "event-public-humiliation",
+    "event-being-the-translator",
+    "event-early-responsibility",
+    "event-the-win"
+   ]
+  },
+  "facts": [
+   {
+    "id": "fear",
+    "type": "fear",
+    "question": "What is this person most afraid of?",
+    "options": [
+     "being left",
+     "failing in public",
+     "being a burden",
+     "losing control"
+    ],
+    "answer": "failing in public"
+   },
+   {
+    "id": "stress",
+    "type": "stress",
+    "question": "Under stress, what does this person do first?",
+    "options": [
+     "go quiet and withdraw",
+     "work harder",
+     "take care of everyone else",
+     "pick a fight"
+    ],
+    "answer": "take care of everyone else"
+   },
+   {
+    "id": "work",
+    "type": "preference",
+    "question": "Where does this person do their best work?",
+    "options": [
+     "alone with the problem",
+     "a small trusted crew",
+     "in front of a crowd",
+     "inside a clear structure"
+    ],
+    "answer": "a small trusted crew"
+   },
+   {
+    "id": "praise",
+    "type": "preference",
+    "question": "How does this person want to be recognized?",
+    "options": [
+     "privately, one on one",
+     "publicly",
+     "by results, not words",
+     "praise makes them uneasy"
+    ],
+    "answer": "publicly"
+   },
+   {
+    "id": "birth_order",
+    "type": "fact",
+    "question": "What was this person's birth order?",
+    "options": [
+     "oldest",
+     "middle",
+     "youngest",
+     "only"
+    ],
+    "answer": "oldest"
+   },
+   {
+    "id": "languages",
+    "type": "fact",
+    "question": "How many languages were spoken at home?",
+    "options": [
+     "one",
+     "two",
+     "three or more"
+    ],
+    "answer": "two"
+   },
+   {
+    "id": "moves",
+    "type": "fact",
+    "question": "How often did this person move before 12?",
+    "options": [
+     "never moved",
+     "moved once",
+     "moved two or three times",
+     "moved four or more times"
+    ],
+    "answer": "never moved"
+   },
+   {
+    "id": "first_job",
+    "type": "fact",
+    "question": "When did this person start earning money?",
+    "options": [
+     "before 14",
+     "14 to 16",
+     "17 to 19",
+     "20 or later"
+    ],
+    "answer": "before 14"
+   },
+   {
+    "id": "school",
+    "type": "childhood",
+    "question": "What kind of school did this person attend?",
+    "options": [
+     "Suburban Public School",
+     "Small Religious School",
+     "Underfunded Urban School",
+     "Elite Private School",
+     "Rural Consolidated School"
+    ],
+    "answer": "Elite Private School"
+   },
+   {
+    "id": "parent",
+    "type": "childhood",
+    "question": "Which of these describes one of this person's parents?",
+    "options": [
+     "The Provider",
+     "The Anxious Protector",
+     "The Golden-Child Maker",
+     "The Absent One",
+     "The Friend",
+     "The Immigrant Striver",
+     "The Warm Constant",
+     "The Storm"
+    ],
+    "answer": "The Warm Constant",
+    "accept": [
+     "The Warm Constant",
+     "The Anxious Protector"
+    ]
+   },
+   {
+    "id": "ev_move",
+    "type": "childhood",
+    "question": "Did this person go through a move that changed everything?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_translator",
+    "type": "childhood",
+    "question": "Did this person translate for their family as a child?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "yes"
+   },
+   {
+    "id": "ev_responsibility",
+    "type": "childhood",
+    "question": "Did this person carry adult responsibility early?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "yes"
+   },
+   {
+    "id": "ev_money",
+    "type": "childhood",
+    "question": "Did the family's money go away during this person's childhood?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   }
+  ]
+ },
+ {
+  "id": "synthetic-032",
+  "synthetic": true,
+  "childhood": {
+   "parents": [
+    "parent-the-friend",
+    "parent-the-immigrant-striver"
+   ],
+   "school": "school-elite-private",
+   "events": [
+    "event-the-friend-who-left",
+    "event-being-the-translator",
+    "event-caught-and-forgiven"
+   ]
+  },
+  "facts": [
+   {
+    "id": "fear",
+    "type": "fear",
+    "question": "What is this person most afraid of?",
+    "options": [
+     "being left",
+     "failing in public",
+     "being a burden",
+     "losing control"
+    ],
+    "answer": "being a burden"
+   },
+   {
+    "id": "stress",
+    "type": "stress",
+    "question": "Under stress, what does this person do first?",
+    "options": [
+     "go quiet and withdraw",
+     "work harder",
+     "take care of everyone else",
+     "pick a fight"
+    ],
+    "answer": "take care of everyone else"
+   },
+   {
+    "id": "work",
+    "type": "preference",
+    "question": "Where does this person do their best work?",
+    "options": [
+     "alone with the problem",
+     "a small trusted crew",
+     "in front of a crowd",
+     "inside a clear structure"
+    ],
+    "answer": "in front of a crowd"
+   },
+   {
+    "id": "praise",
+    "type": "preference",
+    "question": "How does this person want to be recognized?",
+    "options": [
+     "privately, one on one",
+     "publicly",
+     "by results, not words",
+     "praise makes them uneasy"
+    ],
+    "answer": "publicly"
+   },
+   {
+    "id": "birth_order",
+    "type": "fact",
+    "question": "What was this person's birth order?",
+    "options": [
+     "oldest",
+     "middle",
+     "youngest",
+     "only"
+    ],
+    "answer": "oldest"
+   },
+   {
+    "id": "languages",
+    "type": "fact",
+    "question": "How many languages were spoken at home?",
+    "options": [
+     "one",
+     "two",
+     "three or more"
+    ],
+    "answer": "two"
+   },
+   {
+    "id": "moves",
+    "type": "fact",
+    "question": "How often did this person move before 12?",
+    "options": [
+     "never moved",
+     "moved once",
+     "moved two or three times",
+     "moved four or more times"
+    ],
+    "answer": "moved four or more times"
+   },
+   {
+    "id": "first_job",
+    "type": "fact",
+    "question": "When did this person start earning money?",
+    "options": [
+     "before 14",
+     "14 to 16",
+     "17 to 19",
+     "20 or later"
+    ],
+    "answer": "before 14"
+   },
+   {
+    "id": "school",
+    "type": "childhood",
+    "question": "What kind of school did this person attend?",
+    "options": [
+     "Suburban Public School",
+     "Small Religious School",
+     "Underfunded Urban School",
+     "Elite Private School",
+     "Rural Consolidated School"
+    ],
+    "answer": "Elite Private School"
+   },
+   {
+    "id": "parent",
+    "type": "childhood",
+    "question": "Which of these describes one of this person's parents?",
+    "options": [
+     "The Provider",
+     "The Anxious Protector",
+     "The Golden-Child Maker",
+     "The Absent One",
+     "The Friend",
+     "The Immigrant Striver",
+     "The Warm Constant",
+     "The Storm"
+    ],
+    "answer": "The Friend",
+    "accept": [
+     "The Friend",
+     "The Immigrant Striver"
+    ]
+   },
+   {
+    "id": "ev_move",
+    "type": "childhood",
+    "question": "Did this person go through a move that changed everything?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_translator",
+    "type": "childhood",
+    "question": "Did this person translate for their family as a child?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "yes"
+   },
+   {
+    "id": "ev_responsibility",
+    "type": "childhood",
+    "question": "Did this person carry adult responsibility early?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_money",
+    "type": "childhood",
+    "question": "Did the family's money go away during this person's childhood?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   }
+  ]
+ },
+ {
+  "id": "synthetic-033",
+  "synthetic": true,
+  "childhood": {
+   "parents": [
+    "parent-the-anxious-protector",
+    "parent-the-golden-child-maker"
+   ],
+   "school": "school-elite-private",
+   "events": [
+    "event-the-move",
+    "event-early-responsibility",
+    "event-praise-for-one-trait"
+   ]
+  },
+  "facts": [
+   {
+    "id": "fear",
+    "type": "fear",
+    "question": "What is this person most afraid of?",
+    "options": [
+     "being left",
+     "failing in public",
+     "being a burden",
+     "losing control"
+    ],
+    "answer": "failing in public"
+   },
+   {
+    "id": "stress",
+    "type": "stress",
+    "question": "Under stress, what does this person do first?",
+    "options": [
+     "go quiet and withdraw",
+     "work harder",
+     "take care of everyone else",
+     "pick a fight"
+    ],
+    "answer": "take care of everyone else"
+   },
+   {
+    "id": "work",
+    "type": "preference",
+    "question": "Where does this person do their best work?",
+    "options": [
+     "alone with the problem",
+     "a small trusted crew",
+     "in front of a crowd",
+     "inside a clear structure"
+    ],
+    "answer": "inside a clear structure"
+   },
+   {
+    "id": "praise",
+    "type": "preference",
+    "question": "How does this person want to be recognized?",
+    "options": [
+     "privately, one on one",
+     "publicly",
+     "by results, not words",
+     "praise makes them uneasy"
+    ],
+    "answer": "publicly"
+   },
+   {
+    "id": "birth_order",
+    "type": "fact",
+    "question": "What was this person's birth order?",
+    "options": [
+     "oldest",
+     "middle",
+     "youngest",
+     "only"
+    ],
+    "answer": "oldest"
+   },
+   {
+    "id": "languages",
+    "type": "fact",
+    "question": "How many languages were spoken at home?",
+    "options": [
+     "one",
+     "two",
+     "three or more"
+    ],
+    "answer": "one"
+   },
+   {
+    "id": "moves",
+    "type": "fact",
+    "question": "How often did this person move before 12?",
+    "options": [
+     "never moved",
+     "moved once",
+     "moved two or three times",
+     "moved four or more times"
+    ],
+    "answer": "moved two or three times"
+   },
+   {
+    "id": "first_job",
+    "type": "fact",
+    "question": "When did this person start earning money?",
+    "options": [
+     "before 14",
+     "14 to 16",
+     "17 to 19",
+     "20 or later"
+    ],
+    "answer": "17 to 19"
+   },
+   {
+    "id": "school",
+    "type": "childhood",
+    "question": "What kind of school did this person attend?",
+    "options": [
+     "Suburban Public School",
+     "Small Religious School",
+     "Underfunded Urban School",
+     "Elite Private School",
+     "Rural Consolidated School"
+    ],
+    "answer": "Elite Private School"
+   },
+   {
+    "id": "parent",
+    "type": "childhood",
+    "question": "Which of these describes one of this person's parents?",
+    "options": [
+     "The Provider",
+     "The Anxious Protector",
+     "The Golden-Child Maker",
+     "The Absent One",
+     "The Friend",
+     "The Immigrant Striver",
+     "The Warm Constant",
+     "The Storm"
+    ],
+    "answer": "The Anxious Protector",
+    "accept": [
+     "The Anxious Protector",
+     "The Golden-Child Maker"
+    ]
+   },
+   {
+    "id": "ev_move",
+    "type": "childhood",
+    "question": "Did this person go through a move that changed everything?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "yes"
+   },
+   {
+    "id": "ev_translator",
+    "type": "childhood",
+    "question": "Did this person translate for their family as a child?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_responsibility",
+    "type": "childhood",
+    "question": "Did this person carry adult responsibility early?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "yes"
+   },
+   {
+    "id": "ev_money",
+    "type": "childhood",
+    "question": "Did the family's money go away during this person's childhood?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   }
+  ]
+ },
+ {
+  "id": "synthetic-034",
+  "synthetic": true,
+  "childhood": {
+   "parents": [
+    "parent-the-immigrant-striver",
+    "parent-the-absent-one"
+   ],
+   "school": "school-rural-consolidated",
+   "events": [
+    "event-the-secret",
+    "event-the-rupture",
+    "event-one-adult-saw-you",
+    "event-the-illness",
+    "event-the-grandparent"
+   ]
+  },
+  "facts": [
+   {
+    "id": "fear",
+    "type": "fear",
+    "question": "What is this person most afraid of?",
+    "options": [
+     "being left",
+     "failing in public",
+     "being a burden",
+     "losing control"
+    ],
+    "answer": "being left"
+   },
+   {
+    "id": "stress",
+    "type": "stress",
+    "question": "Under stress, what does this person do first?",
+    "options": [
+     "go quiet and withdraw",
+     "work harder",
+     "take care of everyone else",
+     "pick a fight"
+    ],
+    "answer": "go quiet and withdraw"
+   },
+   {
+    "id": "work",
+    "type": "preference",
+    "question": "Where does this person do their best work?",
+    "options": [
+     "alone with the problem",
+     "a small trusted crew",
+     "in front of a crowd",
+     "inside a clear structure"
+    ],
+    "answer": "alone with the problem"
+   },
+   {
+    "id": "praise",
+    "type": "preference",
+    "question": "How does this person want to be recognized?",
+    "options": [
+     "privately, one on one",
+     "publicly",
+     "by results, not words",
+     "praise makes them uneasy"
+    ],
+    "answer": "privately, one on one"
+   },
+   {
+    "id": "birth_order",
+    "type": "fact",
+    "question": "What was this person's birth order?",
+    "options": [
+     "oldest",
+     "middle",
+     "youngest",
+     "only"
+    ],
+    "answer": "middle"
+   },
+   {
+    "id": "languages",
+    "type": "fact",
+    "question": "How many languages were spoken at home?",
+    "options": [
+     "one",
+     "two",
+     "three or more"
+    ],
+    "answer": "two"
+   },
+   {
+    "id": "moves",
+    "type": "fact",
+    "question": "How often did this person move before 12?",
+    "options": [
+     "never moved",
+     "moved once",
+     "moved two or three times",
+     "moved four or more times"
+    ],
+    "answer": "never moved"
+   },
+   {
+    "id": "first_job",
+    "type": "fact",
+    "question": "When did this person start earning money?",
+    "options": [
+     "before 14",
+     "14 to 16",
+     "17 to 19",
+     "20 or later"
+    ],
+    "answer": "before 14"
+   },
+   {
+    "id": "school",
+    "type": "childhood",
+    "question": "What kind of school did this person attend?",
+    "options": [
+     "Suburban Public School",
+     "Small Religious School",
+     "Underfunded Urban School",
+     "Elite Private School",
+     "Rural Consolidated School"
+    ],
+    "answer": "Rural Consolidated School"
+   },
+   {
+    "id": "parent",
+    "type": "childhood",
+    "question": "Which of these describes one of this person's parents?",
+    "options": [
+     "The Provider",
+     "The Anxious Protector",
+     "The Golden-Child Maker",
+     "The Absent One",
+     "The Friend",
+     "The Immigrant Striver",
+     "The Warm Constant",
+     "The Storm"
+    ],
+    "answer": "The Immigrant Striver",
+    "accept": [
+     "The Immigrant Striver",
+     "The Absent One"
+    ]
+   },
+   {
+    "id": "ev_move",
+    "type": "childhood",
+    "question": "Did this person go through a move that changed everything?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_translator",
+    "type": "childhood",
+    "question": "Did this person translate for their family as a child?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_responsibility",
+    "type": "childhood",
+    "question": "Did this person carry adult responsibility early?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_money",
+    "type": "childhood",
+    "question": "Did the family's money go away during this person's childhood?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   }
+  ]
+ },
+ {
+  "id": "synthetic-035",
+  "synthetic": true,
+  "childhood": {
+   "parents": [
+    "parent-the-anxious-protector",
+    "parent-the-immigrant-striver"
+   ],
+   "school": "school-small-religious",
+   "events": [
+    "event-the-move",
+    "event-the-long-summer-alone",
+    "event-caught-and-forgiven",
+    "event-the-comparison"
+   ]
+  },
+  "facts": [
+   {
+    "id": "fear",
+    "type": "fear",
+    "question": "What is this person most afraid of?",
+    "options": [
+     "being left",
+     "failing in public",
+     "being a burden",
+     "losing control"
+    ],
+    "answer": "being a burden"
+   },
+   {
+    "id": "stress",
+    "type": "stress",
+    "question": "Under stress, what does this person do first?",
+    "options": [
+     "go quiet and withdraw",
+     "work harder",
+     "take care of everyone else",
+     "pick a fight"
+    ],
+    "answer": "work harder"
+   },
+   {
+    "id": "work",
+    "type": "preference",
+    "question": "Where does this person do their best work?",
+    "options": [
+     "alone with the problem",
+     "a small trusted crew",
+     "in front of a crowd",
+     "inside a clear structure"
+    ],
+    "answer": "inside a clear structure"
+   },
+   {
+    "id": "praise",
+    "type": "preference",
+    "question": "How does this person want to be recognized?",
+    "options": [
+     "privately, one on one",
+     "publicly",
+     "by results, not words",
+     "praise makes them uneasy"
+    ],
+    "answer": "publicly"
+   },
+   {
+    "id": "birth_order",
+    "type": "fact",
+    "question": "What was this person's birth order?",
+    "options": [
+     "oldest",
+     "middle",
+     "youngest",
+     "only"
+    ],
+    "answer": "oldest"
+   },
+   {
+    "id": "languages",
+    "type": "fact",
+    "question": "How many languages were spoken at home?",
+    "options": [
+     "one",
+     "two",
+     "three or more"
+    ],
+    "answer": "two"
+   },
+   {
+    "id": "moves",
+    "type": "fact",
+    "question": "How often did this person move before 12?",
+    "options": [
+     "never moved",
+     "moved once",
+     "moved two or three times",
+     "moved four or more times"
+    ],
+    "answer": "moved two or three times"
+   },
+   {
+    "id": "first_job",
+    "type": "fact",
+    "question": "When did this person start earning money?",
+    "options": [
+     "before 14",
+     "14 to 16",
+     "17 to 19",
+     "20 or later"
+    ],
+    "answer": "17 to 19"
+   },
+   {
+    "id": "school",
+    "type": "childhood",
+    "question": "What kind of school did this person attend?",
+    "options": [
+     "Suburban Public School",
+     "Small Religious School",
+     "Underfunded Urban School",
+     "Elite Private School",
+     "Rural Consolidated School"
+    ],
+    "answer": "Small Religious School"
+   },
+   {
+    "id": "parent",
+    "type": "childhood",
+    "question": "Which of these describes one of this person's parents?",
+    "options": [
+     "The Provider",
+     "The Anxious Protector",
+     "The Golden-Child Maker",
+     "The Absent One",
+     "The Friend",
+     "The Immigrant Striver",
+     "The Warm Constant",
+     "The Storm"
+    ],
+    "answer": "The Anxious Protector",
+    "accept": [
+     "The Anxious Protector",
+     "The Immigrant Striver"
+    ]
+   },
+   {
+    "id": "ev_move",
+    "type": "childhood",
+    "question": "Did this person go through a move that changed everything?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "yes"
+   },
+   {
+    "id": "ev_translator",
+    "type": "childhood",
+    "question": "Did this person translate for their family as a child?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_responsibility",
+    "type": "childhood",
+    "question": "Did this person carry adult responsibility early?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_money",
+    "type": "childhood",
+    "question": "Did the family's money go away during this person's childhood?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   }
+  ]
+ },
+ {
+  "id": "synthetic-036",
+  "synthetic": true,
+  "childhood": {
+   "parents": [
+    "parent-the-golden-child-maker",
+    "parent-the-anxious-protector"
+   ],
+   "school": "school-suburban-public",
+   "events": [
+    "event-early-responsibility",
+    "event-being-needed",
+    "event-first-thing-you-loved-alone",
+    "event-praise-for-one-trait",
+    "event-money-went-away"
+   ]
+  },
+  "facts": [
+   {
+    "id": "fear",
+    "type": "fear",
+    "question": "What is this person most afraid of?",
+    "options": [
+     "being left",
+     "failing in public",
+     "being a burden",
+     "losing control"
+    ],
+    "answer": "failing in public"
+   },
+   {
+    "id": "stress",
+    "type": "stress",
+    "question": "Under stress, what does this person do first?",
+    "options": [
+     "go quiet and withdraw",
+     "work harder",
+     "take care of everyone else",
+     "pick a fight"
+    ],
+    "answer": "take care of everyone else"
+   },
+   {
+    "id": "work",
+    "type": "preference",
+    "question": "Where does this person do their best work?",
+    "options": [
+     "alone with the problem",
+     "a small trusted crew",
+     "in front of a crowd",
+     "inside a clear structure"
+    ],
+    "answer": "inside a clear structure"
+   },
+   {
+    "id": "praise",
+    "type": "preference",
+    "question": "How does this person want to be recognized?",
+    "options": [
+     "privately, one on one",
+     "publicly",
+     "by results, not words",
+     "praise makes them uneasy"
+    ],
+    "answer": "publicly"
+   },
+   {
+    "id": "birth_order",
+    "type": "fact",
+    "question": "What was this person's birth order?",
+    "options": [
+     "oldest",
+     "middle",
+     "youngest",
+     "only"
+    ],
+    "answer": "oldest"
+   },
+   {
+    "id": "languages",
+    "type": "fact",
+    "question": "How many languages were spoken at home?",
+    "options": [
+     "one",
+     "two",
+     "three or more"
+    ],
+    "answer": "one"
+   },
+   {
+    "id": "moves",
+    "type": "fact",
+    "question": "How often did this person move before 12?",
+    "options": [
+     "never moved",
+     "moved once",
+     "moved two or three times",
+     "moved four or more times"
+    ],
+    "answer": "moved once"
+   },
+   {
+    "id": "first_job",
+    "type": "fact",
+    "question": "When did this person start earning money?",
+    "options": [
+     "before 14",
+     "14 to 16",
+     "17 to 19",
+     "20 or later"
+    ],
+    "answer": "14 to 16"
+   },
+   {
+    "id": "school",
+    "type": "childhood",
+    "question": "What kind of school did this person attend?",
+    "options": [
+     "Suburban Public School",
+     "Small Religious School",
+     "Underfunded Urban School",
+     "Elite Private School",
+     "Rural Consolidated School"
+    ],
+    "answer": "Suburban Public School"
+   },
+   {
+    "id": "parent",
+    "type": "childhood",
+    "question": "Which of these describes one of this person's parents?",
+    "options": [
+     "The Provider",
+     "The Anxious Protector",
+     "The Golden-Child Maker",
+     "The Absent One",
+     "The Friend",
+     "The Immigrant Striver",
+     "The Warm Constant",
+     "The Storm"
+    ],
+    "answer": "The Golden-Child Maker",
+    "accept": [
+     "The Golden-Child Maker",
+     "The Anxious Protector"
+    ]
+   },
+   {
+    "id": "ev_move",
+    "type": "childhood",
+    "question": "Did this person go through a move that changed everything?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_translator",
+    "type": "childhood",
+    "question": "Did this person translate for their family as a child?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_responsibility",
+    "type": "childhood",
+    "question": "Did this person carry adult responsibility early?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "yes"
+   },
+   {
+    "id": "ev_money",
+    "type": "childhood",
+    "question": "Did the family's money go away during this person's childhood?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "yes"
+   }
+  ]
+ },
+ {
+  "id": "synthetic-037",
+  "synthetic": true,
+  "childhood": {
+   "parents": [
+    "parent-the-golden-child-maker",
+    "parent-the-friend"
+   ],
+   "school": "school-underfunded-urban",
+   "events": [
+    "event-being-the-translator",
+    "event-money-went-away",
+    "event-praise-for-one-trait",
+    "event-one-adult-saw-you"
+   ]
+  },
+  "facts": [
+   {
+    "id": "fear",
+    "type": "fear",
+    "question": "What is this person most afraid of?",
+    "options": [
+     "being left",
+     "failing in public",
+     "being a burden",
+     "losing control"
+    ],
+    "answer": "being a burden"
+   },
+   {
+    "id": "stress",
+    "type": "stress",
+    "question": "Under stress, what does this person do first?",
+    "options": [
+     "go quiet and withdraw",
+     "work harder",
+     "take care of everyone else",
+     "pick a fight"
+    ],
+    "answer": "take care of everyone else"
+   },
+   {
+    "id": "work",
+    "type": "preference",
+    "question": "Where does this person do their best work?",
+    "options": [
+     "alone with the problem",
+     "a small trusted crew",
+     "in front of a crowd",
+     "inside a clear structure"
+    ],
+    "answer": "in front of a crowd"
+   },
+   {
+    "id": "praise",
+    "type": "preference",
+    "question": "How does this person want to be recognized?",
+    "options": [
+     "privately, one on one",
+     "publicly",
+     "by results, not words",
+     "praise makes them uneasy"
+    ],
+    "answer": "publicly"
+   },
+   {
+    "id": "birth_order",
+    "type": "fact",
+    "question": "What was this person's birth order?",
+    "options": [
+     "oldest",
+     "middle",
+     "youngest",
+     "only"
+    ],
+    "answer": "oldest"
+   },
+   {
+    "id": "languages",
+    "type": "fact",
+    "question": "How many languages were spoken at home?",
+    "options": [
+     "one",
+     "two",
+     "three or more"
+    ],
+    "answer": "two"
+   },
+   {
+    "id": "moves",
+    "type": "fact",
+    "question": "How often did this person move before 12?",
+    "options": [
+     "never moved",
+     "moved once",
+     "moved two or three times",
+     "moved four or more times"
+    ],
+    "answer": "never moved"
+   },
+   {
+    "id": "first_job",
+    "type": "fact",
+    "question": "When did this person start earning money?",
+    "options": [
+     "before 14",
+     "14 to 16",
+     "17 to 19",
+     "20 or later"
+    ],
+    "answer": "14 to 16"
+   },
+   {
+    "id": "school",
+    "type": "childhood",
+    "question": "What kind of school did this person attend?",
+    "options": [
+     "Suburban Public School",
+     "Small Religious School",
+     "Underfunded Urban School",
+     "Elite Private School",
+     "Rural Consolidated School"
+    ],
+    "answer": "Underfunded Urban School"
+   },
+   {
+    "id": "parent",
+    "type": "childhood",
+    "question": "Which of these describes one of this person's parents?",
+    "options": [
+     "The Provider",
+     "The Anxious Protector",
+     "The Golden-Child Maker",
+     "The Absent One",
+     "The Friend",
+     "The Immigrant Striver",
+     "The Warm Constant",
+     "The Storm"
+    ],
+    "answer": "The Golden-Child Maker",
+    "accept": [
+     "The Golden-Child Maker",
+     "The Friend"
+    ]
+   },
+   {
+    "id": "ev_move",
+    "type": "childhood",
+    "question": "Did this person go through a move that changed everything?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_translator",
+    "type": "childhood",
+    "question": "Did this person translate for their family as a child?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "yes"
+   },
+   {
+    "id": "ev_responsibility",
+    "type": "childhood",
+    "question": "Did this person carry adult responsibility early?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_money",
+    "type": "childhood",
+    "question": "Did the family's money go away during this person's childhood?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "yes"
+   }
+  ]
+ },
+ {
+  "id": "synthetic-038",
+  "synthetic": true,
+  "childhood": {
+   "parents": [
+    "parent-the-absent-one",
+    "parent-the-friend"
+   ],
+   "school": "school-suburban-public",
+   "events": [
+    "event-the-grandparent",
+    "event-caught-and-forgiven",
+    "event-first-thing-you-loved-alone"
+   ]
+  },
+  "facts": [
+   {
+    "id": "fear",
+    "type": "fear",
+    "question": "What is this person most afraid of?",
+    "options": [
+     "being left",
+     "failing in public",
+     "being a burden",
+     "losing control"
+    ],
+    "answer": "being a burden"
+   },
+   {
+    "id": "stress",
+    "type": "stress",
+    "question": "Under stress, what does this person do first?",
+    "options": [
+     "go quiet and withdraw",
+     "work harder",
+     "take care of everyone else",
+     "pick a fight"
+    ],
+    "answer": "go quiet and withdraw"
+   },
+   {
+    "id": "work",
+    "type": "preference",
+    "question": "Where does this person do their best work?",
+    "options": [
+     "alone with the problem",
+     "a small trusted crew",
+     "in front of a crowd",
+     "inside a clear structure"
+    ],
+    "answer": "alone with the problem"
+   },
+   {
+    "id": "praise",
+    "type": "preference",
+    "question": "How does this person want to be recognized?",
+    "options": [
+     "privately, one on one",
+     "publicly",
+     "by results, not words",
+     "praise makes them uneasy"
+    ],
+    "answer": "by results, not words"
+   },
+   {
+    "id": "birth_order",
+    "type": "fact",
+    "question": "What was this person's birth order?",
+    "options": [
+     "oldest",
+     "middle",
+     "youngest",
+     "only"
+    ],
+    "answer": "oldest"
+   },
+   {
+    "id": "languages",
+    "type": "fact",
+    "question": "How many languages were spoken at home?",
+    "options": [
+     "one",
+     "two",
+     "three or more"
+    ],
+    "answer": "three or more"
+   },
+   {
+    "id": "moves",
+    "type": "fact",
+    "question": "How often did this person move before 12?",
+    "options": [
+     "never moved",
+     "moved once",
+     "moved two or three times",
+     "moved four or more times"
+    ],
+    "answer": "moved once"
+   },
+   {
+    "id": "first_job",
+    "type": "fact",
+    "question": "When did this person start earning money?",
+    "options": [
+     "before 14",
+     "14 to 16",
+     "17 to 19",
+     "20 or later"
+    ],
+    "answer": "14 to 16"
+   },
+   {
+    "id": "school",
+    "type": "childhood",
+    "question": "What kind of school did this person attend?",
+    "options": [
+     "Suburban Public School",
+     "Small Religious School",
+     "Underfunded Urban School",
+     "Elite Private School",
+     "Rural Consolidated School"
+    ],
+    "answer": "Suburban Public School"
+   },
+   {
+    "id": "parent",
+    "type": "childhood",
+    "question": "Which of these describes one of this person's parents?",
+    "options": [
+     "The Provider",
+     "The Anxious Protector",
+     "The Golden-Child Maker",
+     "The Absent One",
+     "The Friend",
+     "The Immigrant Striver",
+     "The Warm Constant",
+     "The Storm"
+    ],
+    "answer": "The Absent One",
+    "accept": [
+     "The Absent One",
+     "The Friend"
+    ]
+   },
+   {
+    "id": "ev_move",
+    "type": "childhood",
+    "question": "Did this person go through a move that changed everything?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_translator",
+    "type": "childhood",
+    "question": "Did this person translate for their family as a child?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_responsibility",
+    "type": "childhood",
+    "question": "Did this person carry adult responsibility early?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_money",
+    "type": "childhood",
+    "question": "Did the family's money go away during this person's childhood?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   }
+  ]
+ },
+ {
+  "id": "synthetic-039",
+  "synthetic": true,
+  "childhood": {
+   "parents": [
+    "parent-the-anxious-protector",
+    "parent-the-storm"
+   ],
+   "school": "school-suburban-public",
+   "events": [
+    "event-being-needed",
+    "event-early-responsibility",
+    "event-public-humiliation"
+   ]
+  },
+  "facts": [
+   {
+    "id": "fear",
+    "type": "fear",
+    "question": "What is this person most afraid of?",
+    "options": [
+     "being left",
+     "failing in public",
+     "being a burden",
+     "losing control"
+    ],
+    "answer": "losing control"
+   },
+   {
+    "id": "stress",
+    "type": "stress",
+    "question": "Under stress, what does this person do first?",
+    "options": [
+     "go quiet and withdraw",
+     "work harder",
+     "take care of everyone else",
+     "pick a fight"
+    ],
+    "answer": "take care of everyone else"
+   },
+   {
+    "id": "work",
+    "type": "preference",
+    "question": "Where does this person do their best work?",
+    "options": [
+     "alone with the problem",
+     "a small trusted crew",
+     "in front of a crowd",
+     "inside a clear structure"
+    ],
+    "answer": "inside a clear structure"
+   },
+   {
+    "id": "praise",
+    "type": "preference",
+    "question": "How does this person want to be recognized?",
+    "options": [
+     "privately, one on one",
+     "publicly",
+     "by results, not words",
+     "praise makes them uneasy"
+    ],
+    "answer": "praise makes them uneasy"
+   },
+   {
+    "id": "birth_order",
+    "type": "fact",
+    "question": "What was this person's birth order?",
+    "options": [
+     "oldest",
+     "middle",
+     "youngest",
+     "only"
+    ],
+    "answer": "oldest"
+   },
+   {
+    "id": "languages",
+    "type": "fact",
+    "question": "How many languages were spoken at home?",
+    "options": [
+     "one",
+     "two",
+     "three or more"
+    ],
+    "answer": "one"
+   },
+   {
+    "id": "moves",
+    "type": "fact",
+    "question": "How often did this person move before 12?",
+    "options": [
+     "never moved",
+     "moved once",
+     "moved two or three times",
+     "moved four or more times"
+    ],
+    "answer": "never moved"
+   },
+   {
+    "id": "first_job",
+    "type": "fact",
+    "question": "When did this person start earning money?",
+    "options": [
+     "before 14",
+     "14 to 16",
+     "17 to 19",
+     "20 or later"
+    ],
+    "answer": "before 14"
+   },
+   {
+    "id": "school",
+    "type": "childhood",
+    "question": "What kind of school did this person attend?",
+    "options": [
+     "Suburban Public School",
+     "Small Religious School",
+     "Underfunded Urban School",
+     "Elite Private School",
+     "Rural Consolidated School"
+    ],
+    "answer": "Suburban Public School"
+   },
+   {
+    "id": "parent",
+    "type": "childhood",
+    "question": "Which of these describes one of this person's parents?",
+    "options": [
+     "The Provider",
+     "The Anxious Protector",
+     "The Golden-Child Maker",
+     "The Absent One",
+     "The Friend",
+     "The Immigrant Striver",
+     "The Warm Constant",
+     "The Storm"
+    ],
+    "answer": "The Anxious Protector",
+    "accept": [
+     "The Anxious Protector",
+     "The Storm"
+    ]
+   },
+   {
+    "id": "ev_move",
+    "type": "childhood",
+    "question": "Did this person go through a move that changed everything?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_translator",
+    "type": "childhood",
+    "question": "Did this person translate for their family as a child?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_responsibility",
+    "type": "childhood",
+    "question": "Did this person carry adult responsibility early?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "yes"
+   },
+   {
+    "id": "ev_money",
+    "type": "childhood",
+    "question": "Did the family's money go away during this person's childhood?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   }
+  ]
+ },
+ {
+  "id": "synthetic-040",
+  "synthetic": true,
+  "childhood": {
+   "parents": [
+    "parent-the-immigrant-striver",
+    "parent-the-storm"
+   ],
+   "school": "school-rural-consolidated",
+   "events": [
+    "event-public-humiliation",
+    "event-the-secret",
+    "event-the-win",
+    "event-one-adult-saw-you",
+    "event-the-grandparent"
+   ]
+  },
+  "facts": [
+   {
+    "id": "fear",
+    "type": "fear",
+    "question": "What is this person most afraid of?",
+    "options": [
+     "being left",
+     "failing in public",
+     "being a burden",
+     "losing control"
+    ],
+    "answer": "failing in public"
+   },
+   {
+    "id": "stress",
+    "type": "stress",
+    "question": "Under stress, what does this person do first?",
+    "options": [
+     "go quiet and withdraw",
+     "work harder",
+     "take care of everyone else",
+     "pick a fight"
+    ],
+    "answer": "work harder"
+   },
+   {
+    "id": "work",
+    "type": "preference",
+    "question": "Where does this person do their best work?",
+    "options": [
+     "alone with the problem",
+     "a small trusted crew",
+     "in front of a crowd",
+     "inside a clear structure"
+    ],
+    "answer": "alone with the problem"
+   },
+   {
+    "id": "praise",
+    "type": "preference",
+    "question": "How does this person want to be recognized?",
+    "options": [
+     "privately, one on one",
+     "publicly",
+     "by results, not words",
+     "praise makes them uneasy"
+    ],
+    "answer": "privately, one on one"
+   },
+   {
+    "id": "birth_order",
+    "type": "fact",
+    "question": "What was this person's birth order?",
+    "options": [
+     "oldest",
+     "middle",
+     "youngest",
+     "only"
+    ],
+    "answer": "oldest"
+   },
+   {
+    "id": "languages",
+    "type": "fact",
+    "question": "How many languages were spoken at home?",
+    "options": [
+     "one",
+     "two",
+     "three or more"
+    ],
+    "answer": "two"
+   },
+   {
+    "id": "moves",
+    "type": "fact",
+    "question": "How often did this person move before 12?",
+    "options": [
+     "never moved",
+     "moved once",
+     "moved two or three times",
+     "moved four or more times"
+    ],
+    "answer": "moved two or three times"
+   },
+   {
+    "id": "first_job",
+    "type": "fact",
+    "question": "When did this person start earning money?",
+    "options": [
+     "before 14",
+     "14 to 16",
+     "17 to 19",
+     "20 or later"
+    ],
+    "answer": "before 14"
+   },
+   {
+    "id": "school",
+    "type": "childhood",
+    "question": "What kind of school did this person attend?",
+    "options": [
+     "Suburban Public School",
+     "Small Religious School",
+     "Underfunded Urban School",
+     "Elite Private School",
+     "Rural Consolidated School"
+    ],
+    "answer": "Rural Consolidated School"
+   },
+   {
+    "id": "parent",
+    "type": "childhood",
+    "question": "Which of these describes one of this person's parents?",
+    "options": [
+     "The Provider",
+     "The Anxious Protector",
+     "The Golden-Child Maker",
+     "The Absent One",
+     "The Friend",
+     "The Immigrant Striver",
+     "The Warm Constant",
+     "The Storm"
+    ],
+    "answer": "The Immigrant Striver",
+    "accept": [
+     "The Immigrant Striver",
+     "The Storm"
+    ]
+   },
+   {
+    "id": "ev_move",
+    "type": "childhood",
+    "question": "Did this person go through a move that changed everything?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_translator",
+    "type": "childhood",
+    "question": "Did this person translate for their family as a child?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_responsibility",
+    "type": "childhood",
+    "question": "Did this person carry adult responsibility early?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   },
+   {
+    "id": "ev_money",
+    "type": "childhood",
+    "question": "Did the family's money go away during this person's childhood?",
+    "options": [
+     "yes",
+     "no"
+    ],
+    "answer": "no"
+   }
+  ]
+ }
+]

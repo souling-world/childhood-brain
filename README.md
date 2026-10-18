@@ -29,11 +29,24 @@ Interactive results here: https://claude.ai/artifact/F1MFy1HjYMJgWc1AmMao58
 
 `evals/` scores how accurately a brain reconstructs a real person. Any brain plugs in behind one interface, `brain.query(person_facts, question) -> answer`, and `bun run eval --brain <name> --eval all` prints one table.
 
+The runner borrows its shape from Google's [third-party LLM eval notebook](https://github.com/GoogleCloudPlatform/generative-ai/blob/main/gemini/evaluation/evaluating_third_party_llms_vertex_ai_gen_ai_eval_sdk.ipynb), without Vertex or GCP:
+
+- One string picks the brain, the way the SDK takes any model id: `baseline`, `nearest`, `llm` or `llm:<model>` (needs `ANTHROPIC_API_KEY`), or `cmd:<command>` to bring your own brain (it gets `{facts, question}` as JSON on stdin and prints the answer).
+- Inference and scoring are separate. Responses are saved to `evals/runs/<brain>/<eval>.jsonl`; `--reuse` rescores them without calling the brain again.
+- Pass several brains at once (`--brain nearest,llm`) for one side-by-side table. `baseline` is always included, next to a `chance` column.
+- Answers are closed options scored by exact match, so the notebook's LLM-judge rubrics are left out: a judge adds its own noise to a question that has one right answer.
+
+```
+bun run eval:data                          # regenerate evals/data/synthetic/people.json from seeds.json
+bun run eval --brain nearest,llm --eval all
+bun run eval --brain llm --eval held_out_recall --people 5   # cheap smoke run
+```
+
 - `held_out_recall`: feed 70% of a person's facts, predict the hidden 30%. Score vs a base-rate guesser that picks the most common answer per field. Broken down by fact type: facts, preferences, fears, stress reactions, childhood fragments.
 - `self_recognition`: the matched childhood plus 4 same-bucket decoys. Percent who pick their own, chance 20%, plus a 1 to 5 "this is me" rating.
 - `consistency`: 20 fact questions, 10 phrasings each, agreement rate.
 
-Data lives in `evals/data/`. `synthetic/` is generated and clearly fake. `consented/` is gitignored and holds real entries added under CONSENT.md. `public/` holds public figures built from cited sources; public is not consent, and those records are for comparing brains only.
+Data lives in `evals/data/` (`--data <path>` picks a file). `synthetic/` is generated from `seeds.json` and clearly fake: traits are nudged by each person's parents, school and events, plus noise, so a brain that reads the childhood can beat the base rate. `consented/` is gitignored and holds real entries added under CONSENT.md. `public/` holds public figures built from cited sources; public is not consent, and those records are for comparing brains only.
 
 ### Results, Sep 27 2026
 

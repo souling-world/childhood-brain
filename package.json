@@ -1,0 +1,9 @@
+{
+  "name": "childhood-brain",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "eval": "bun run evals/run.ts",
+    "eval:data": "bun run evals/data/make-synthetic.ts"
+  }
+}
