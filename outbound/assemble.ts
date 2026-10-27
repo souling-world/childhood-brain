@@ -17,7 +17,7 @@ I've scaled products for founders like you before: 30,000+ paying customers, and
 Would you like me to help you? ${h.company} ${PHRASE[h.intensity] ?? PHRASE[1]}! We'll figure out scaling in 20 min.`;
 
 const messageB = (h: any) =>
-`${h.first_name}, ${lower(h.hook)} I've scaled a product to 30,000+ paying customers and did product insight for Zach Yadegari at Cal AI (9-figure valuation). Open to 20 min on how we'd scale ${h.company === "What you're building" ? "yours" : h.company}?`;
+`${h.first_name === "there" ? "Hey," : `${h.first_name},`} ${lower(h.hook)} I've scaled a product to 30,000+ paying customers and did product insight for Zach Yadegari at Cal AI (9-figure valuation). Open to 20 min on how we'd scale ${h.company === "What you're building" ? "yours" : h.company}?`;
 const lower = (s: string) => /^[A-Z][a-z]/.test(s) && !/^(I|I'm|I've)\b/.test(s) ? s[0].toLowerCase() + s.slice(1) : s;
 
 // X status ids are snowflakes, so the post date comes free: ms = (id >> 22) + twitter epoch.
@@ -30,7 +30,8 @@ const postDate = (url: string) => {
 
 const leads = parseCsv(readFileSync(`${DATA}/leads.csv`, "utf8"));
 const hooks = new Map<number, any>();
-for (const f of readdirSync(`${DATA}/hooks`).filter(f => f.endsWith(".jsonl")))
+// sorted so later files (zz-fixes.jsonl for hand corrections) override earlier ones
+for (const f of readdirSync(`${DATA}/hooks`).filter(f => f.endsWith(".jsonl")).sort())
   for (const line of readFileSync(`${DATA}/hooks/${f}`, "utf8").split("\n").filter(Boolean)) {
     const h = JSON.parse(line);
     hooks.set(Number(h.id), h);
